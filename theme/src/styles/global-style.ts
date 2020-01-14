@@ -42,6 +42,11 @@ const GlobalStyle = createGlobalStyle`
     padding-right: 1em;
     padding-left: 0.75em;
   }
+
+  #mview {
+    outline: none !important;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); /* mobile webkit */
+  }
 `;
 
 export default GlobalStyle;

@@ -1,6 +1,6 @@
 ---
-title: Sample page
-path: "/page"
+title: About Us
+path: "/about"
 excerpt: A sample page.
 ---
 

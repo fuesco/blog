@@ -10,7 +10,7 @@ export const StyledHeader = styled.header`
   border-bottom: 2px #ededed solid;
 
   @media (max-width: ${Theme.breakpoints.sm}) {
-    height: 30vh;
+    height: 60vh;
   }
 `;
 
@@ -20,6 +20,7 @@ export const TitleWrapper = styled.div`
   align-items: center;
   height: 100%;
   flex-direction: column;
+  overflow: hidden;
 
   @media (max-width: ${Theme.breakpoints.sm}) {
     margin-top: -50px;
@@ -36,11 +37,21 @@ export const Title = styled.h1`
   text-shadow: 0 5px 18px rgba(0, 0, 0, .07);
 `;
 
+export const SubTitle = styled.h6`
+  font-size: 8px;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 1px;
+`;
+
 export const Description = styled.h2`
   margin: 0;
   opacity: .85;
 `;
 
 export const StyledTopics = styled(Typed)`
+  color: #fafafa;
   border-bottom: 3px #000 solid;
 `;

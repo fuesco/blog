@@ -14,7 +14,7 @@ interface NavigationProps {
 const Navigation: FunctionComponent<NavigationProps> = ({title, menu, dark = false, showSearch = true}) => (
   <NavContainer dark={dark}>
     <Nav>
-      <Logo title={title}/>
+      <Logo title={title} dark={dark}/>
       <NavWrapper>
         <NavMenu mobile={true}>
           {menu.map((item, index) => (

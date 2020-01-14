@@ -1,6 +1,7 @@
 import React, {FunctionComponent} from "react";
+import StyledModelViewer from "../modelviewer";
 import StyledNavigation from "../navigation";
-import {Description, StyledHeader, StyledTopics, Title, TitleWrapper} from "./style";
+import {Description, StyledHeader, StyledTopics, Title, SubTitle, TitleWrapper} from "./style";
 import reactStringReplace from 'react-string-replace';
 import {MenuItem} from "../../utils/models";
 
@@ -21,7 +22,7 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
           typeSpeed={50}
           backSpeed={60}
           shuffle={true}
-          backDelay={1500}
+          backDelay={2000}
           loop={true}
           key={match + i}
         />
@@ -37,6 +38,8 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
         <Description>
           {description}
         </Description>
+        <SubTitle>built with ❤️ and lots of</SubTitle>
+        <StyledModelViewer url={'https://jetlaglabs.github.io/assets/model/pizza-box.glb'}/>
       </TitleWrapper>
     </StyledHeader>
   );

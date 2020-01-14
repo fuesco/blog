@@ -1,3 +1,15 @@
+- name: Python
+  color: #f0db4f
+  icon: ./assets/images/python.svg
+  featured: true
+- name: React
+  color: #f0db4f
+  icon: ./assets/images/react.svg
+  featured: true
+- name: Flutter
+  color: #f0db4f
+  icon: ./assets/images/flutter.svg
+  featured: true
 - name: Programming
   color: "#007acc"
   icon: ./assets/images/typescript.svg
@@ -10,3 +22,15 @@
   color: #f0db4f
   icon: ./assets/images/javascript.svg
   featured: true
+- name: Machine Learning
+  color: #f0db4f
+  icon: ./assets/images/machine-learning.svg
+  featured: false
+- name: Design
+  color: #f0db4f
+  icon: ./assets/images/design.svg
+  featured: false
+- name: JAMStack
+  color: #f0db4f
+  icon: ./assets/images/jamstack.svg
+  featured: false

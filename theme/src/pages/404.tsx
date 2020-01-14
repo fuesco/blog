@@ -49,6 +49,7 @@ const NotFoundPage: FunctionComponent<ErrorProps> = ({location}) => (
       title={`Page not found`}
     />
     <Error>
+      <img src="https://jetlaglabs.github.io/assets/img/404.svg" height="265px" style={{ marginBottom: -85 }} />
       <ErrorTitle>404</ErrorTitle>
       <ErrorDescription>Page not found</ErrorDescription>
       <BackLink to={`/`}>{/* Country roads... */} Take me home!</BackLink>

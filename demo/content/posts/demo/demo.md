@@ -1,7 +1,7 @@
 ---
 title: "Demo"
 path: "/lipsum"
-tags: ["Demo"]
+tags: ["Demo", "Theme"]
 featuredImage: "./cover.jpg"
 excerpt: A simple demo post to show all kinds of different elements.
 created: 2019-07-18
