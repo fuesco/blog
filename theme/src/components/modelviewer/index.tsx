@@ -30,7 +30,7 @@ const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
       reveal-when-loaded
       interaction-poliicy="allow-when-focused"
       interaction-prompt="basic"
-      style={{height: '25vh', width: '60vw'}}
+      style={{height: '343px', width: '555px'}}
       alt="A low-poly 3D model of a pizza box"
       quick-look-browsers="safari chrome"
       background-color="#b52e31">
