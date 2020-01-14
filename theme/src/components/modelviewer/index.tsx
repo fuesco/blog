@@ -8,15 +8,15 @@ interface ModelViewerProps {
 const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
   const [scrollProgress, setScrollProgress] = useState<number>(0);
   const scrollListener = () => {
-    //const windowScrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    // const windowScrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
     setScrollProgress(window.scrollY);
     console.log(scrollProgress)
   };
   useEffect(() => {
     window.addEventListener("scroll", scrollListener);
     return () => window.removeEventListener("scroll", scrollListener);
-  });
-  //const orbit = `calc(30deg - env(window-scroll-y) * 100deg) 75deg 2.5m`
+  }, []);
+  // const orbit = `calc(30deg - env(window-scroll-y) * 100deg) 75deg 2.5m`
   return (
     <model-viewer src={url}
       camera-controls
