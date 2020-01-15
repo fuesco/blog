@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `navl.me`,
     siteUrl: `https://navlme.netlify.com`,
-    description: `The black box guide to %TOPICS%`,
+    description: `An open source guide to %TOPICS%`,
     topics: [
       'Python',
       'Machine Learning',

@@ -36,7 +36,7 @@ const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
         style={{height: '343px', width: '555px'}}
         alt="A low-poly 3D model of a pizza box"
         quick-look-browsers="safari chrome"
-        background-color="#b52e31">
+        background-color="#ff9900">
       </model-viewer>
     );
   } else {
