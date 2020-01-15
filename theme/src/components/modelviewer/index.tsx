@@ -6,12 +6,11 @@ interface ModelViewerProps {
 }
 
 const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
+  /*
   const [scrollProgress, setScrollProgress] = useState<number>(0);
   const scrollListener = () => {
     // const windowScrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    if (typeof window !== 'undefined') {
-      setScrollProgress(window.scrollY);
-    }
+    setScrollProgress(window.scrollY);
     console.log(scrollProgress)
   };
   useEffect(() => {
@@ -21,10 +20,12 @@ const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
     }
   }, []);
   // const orbit = `calc(30deg - env(window-scroll-y) * 100deg) 75deg 2.5m`
+  // camera-orbit={(30 - scrollProgress) +'deg 75deg 2.5m'}
+  */
   return (
     <model-viewer src={url}
       camera-controls
-      camera-orbit={(30 - scrollProgress) +'deg 75deg 2.5m'}
+      camera-orbit={'30deg 75deg 2.5m'}
       preload 
       id="mview"
       reveal-when-loaded
