@@ -1,11 +1,11 @@
 import React, {FunctionComponent, useEffect, useState} from "react";
-import '@google/model-viewer';
+const isBrowser = typeof window !== 'undefined';
 
 interface ModelViewerProps {
   url: string;
 }
 
-const isBrowser = typeof window !== 'undefined';
+
 
 const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
   const [scrollProgress, setScrollProgress] = useState<number>(0);
@@ -23,6 +23,7 @@ const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
   // const orbit = `calc(30deg - env(window-scroll-y) * 100deg) 75deg 2.5m`
   // camera-orbit={(30 - scrollProgress) +'deg 75deg 2.5m'}
   if (isBrowser) {
+    import('@google/model-viewer');
     return (
       <model-viewer src={url}
         camera-controls
