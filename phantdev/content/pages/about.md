@@ -4,6 +4,10 @@ path: "/about"
 excerpt: A sample page.
 ---
 
+## phant.dev
+
+![phant.dev](https://jetlaglabs.github.io/assets/logo/phant.dev.clear.svg)
+
 ## Dicta tela magis
 
 Lorem markdownum greges licet est sedesque, et equos enim. Super magniloquo

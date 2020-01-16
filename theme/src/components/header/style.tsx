@@ -10,7 +10,7 @@ export const StyledHeader = styled.header`
   border-bottom: 2px #ededed solid;
 
   @media (max-width: ${Theme.breakpoints.sm}) {
-    height: 60vh;
+    height: 80vh;
   }
 `;
 
@@ -38,9 +38,10 @@ export const Title = styled.h1`
 `;
 
 export const SubTitle = styled.h6`
-  font-size: 8px;
-  color: #ffffff;
+  font-size: 10px;
+  color: #fafafa;
   font-weight: 500;
+  opacity: .85;
   text-transform: uppercase;
   line-height: 1;
   letter-spacing: 1px;

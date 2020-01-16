@@ -3,8 +3,8 @@ import {DefaultTheme} from "./default-theme";
 const Theme: DefaultTheme = {
   layout: {
     backgroundColor: `#fafafa`,
-    primaryColor: `#0f4c81`,
-    linkColor: `#a4cbb8`,
+    primaryColor: `#ff9900`,
+    linkColor: `#fff`,
   },
   breakpoints: {
     xs: `425px`,
@@ -22,7 +22,7 @@ const Theme: DefaultTheme = {
       width: `1260px`,
     },
     header: {
-      height: `750px`,
+      height: `600px`,
       background: `#ff9900`,
     },
   },

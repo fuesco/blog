@@ -38,8 +38,8 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
         <Description>
           {description}
         </Description>
-        <SubTitle>built with ❤️ and lots of</SubTitle>
-        <StyledModelViewer url={'https://jetlaglabs.github.io/assets/model/pizza-box.glb'}/>
+        <SubTitle>built with ❤️ from the</SubTitle>
+        <StyledModelViewer url={'https://jetlaglabs.github.io/assets/model/earth.glb'}/>
       </TitleWrapper>
     </StyledHeader>
   );

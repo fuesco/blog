@@ -11,8 +11,8 @@ const StickySidebarContent = styled.div`
 `;
 
 const DownloadButton = styled.a`
-  background-color: ${Theme.layout.primaryColor};
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   font-weight: bold;
   box-shadow: 0 1px 1px #e6e6e6, 0 2px 4px #e6e6e6;
   display: block;
@@ -25,7 +25,8 @@ const DownloadButton = styled.a`
   transition: .5s all;
 
   &:hover {
-    background-color: #84b89f;
+    background-color: ${Theme.layout.primaryColor};
+    color: #fff;
     transform: translate3d(0, -5px, 0);
     box-shadow: 0 1px 1px #ccc, 0 4px 4px #ccc;
   }
@@ -45,7 +46,7 @@ const SidebarContent: FunctionComponent = () => {
         rel={`noopener`}
         aria-label={`how to contribute`}
       >
-         How to Contribute &#x1F4DD;
+         How to Contribute ⚡️
       </DownloadButton>
 
     </StickySidebarContent>

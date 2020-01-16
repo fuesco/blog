@@ -48,7 +48,7 @@ module.exports = {
         <br/>
         Like what you see?
         <br/>
-        <a href="https://github.com/navalmonga" rel="noopener" target="_blank">Star on GitHub!</a>`,
+        <a href="https://github.com/jetlaglabs/phant.dev" rel="noopener" target="_blank">Star on GitHub!</a>`,
       social: {
         facebook: ``,
         twitter: ``,
@@ -71,7 +71,7 @@ module.exports = {
           background_color: `#a4cbb8`,
           theme_color: `#0f4c81`,
           display: `minimal-ui`,
-          icon: `${__dirname}/content/assets/images/logo.png`
+          icon: `${__dirname}/content/assets/images/phant.dev.png`
         }
       }
     }

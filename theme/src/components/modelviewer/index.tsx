@@ -27,13 +27,14 @@ const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
     return (
       <model-viewer src={url}
         camera-controls
-        camera-orbit={(30 - scrollProgress) +'deg 75deg 2.5m'}
+        camera-orbit={(30 - scrollProgress) +'deg 75deg 110%'}
         preload 
         id="mview"
         reveal-when-loaded
         interaction-policy="allow-when-focused"
         interaction-prompt="basic"
-        style={{height: '343px', width: '555px'}}
+        style={{height: '40vh', width: '65vw'}}
+        shadow-intensity={0.5}
         alt="A low-poly 3D model of a pizza box"
         quick-look-browsers="safari chrome"
         background-color="#ff9900">
