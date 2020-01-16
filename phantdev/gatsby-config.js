@@ -6,8 +6,8 @@
 
 module.exports = {
   siteMetadata: {
-    title: `navl.me`,
-    siteUrl: `https://navlme.netlify.com`,
+    title: `phant.dev`,
+    siteUrl: `https://phantdev.netlify.com`,
     description: `An open source guide to %TOPICS%`,
     topics: [
       'Python',
@@ -44,8 +44,11 @@ module.exports = {
     search: true,
     author: {
       name: `Naval Monga`,
-      description: `I'm <a href="https://linkedin.com/in/navalm" rel="noopener" target="_blank">naval</a>, if you like what you see feel free to give a 
-        <a href="https://github.com/navalmonga" rel="noopener" target="_blank">star on GitHub!</a>`,
+      description: `I'm <a href="https://linkedin.com/in/navalm" rel="noopener" target="_blank">naval</a>, founder of <a href="/" rel="noopener" target="_blank">phant.dev</a>
+        <br/>
+        Like what you see?
+        <br/>
+        <a href="https://github.com/navalmonga" rel="noopener" target="_blank">Star on GitHub!</a>`,
       social: {
         facebook: ``,
         twitter: ``,

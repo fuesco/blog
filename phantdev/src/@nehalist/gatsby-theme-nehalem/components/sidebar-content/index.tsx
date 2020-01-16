@@ -37,15 +37,15 @@ const SidebarContent: FunctionComponent = () => {
       <AdStyle />
       <Carbon name={`carbon-home`} placement={`navlmenetlifycom`} serve={`CE7D453J`} />
 
-      <Bio textAlign={`justify`} avatarStyle={{float: `right`, marginLeft: `10px`}}/>
+      <Bio textAlign={`right`} avatarStyle={{float: `left`, marginRight: `1em`}}/>
 
       <DownloadButton
         href={`https://navlme.netlify.com/getting-started`}
         target={`_blank`}
         rel={`noopener`}
-        aria-label={`Get this theme`}
+        aria-label={`how to contribute`}
       >
-        Submit a Post &#x1F4DD;
+         How to Contribute &#x1F4DD;
       </DownloadButton>
 
     </StickySidebarContent>

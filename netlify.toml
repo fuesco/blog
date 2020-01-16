@@ -1,4 +1,4 @@
 [build]
-  base = "demo"
+  base = "phantdev"
   command = "yarn build"
   publish = "public"
