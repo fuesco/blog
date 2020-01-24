@@ -2,8 +2,8 @@ import React, {FunctionComponent} from "react";
 import styled from "styled-components";
 import Bio from "@nehalist/gatsby-theme-nehalem/src/components/bio";
 import Theme from "@nehalist/gatsby-theme-nehalem/src/styles/theme";
-import Carbon from "react-carbon";
-import AdStyle from "./style";
+// import Carbon from "react-carbon";
+// import AdStyle from "./style";
 
 const StickySidebarContent = styled.div`
   position: sticky;
@@ -31,13 +31,17 @@ const DownloadButton = styled.a`
     box-shadow: 0 1px 1px #ccc, 0 4px 4px #ccc;
   }
 `;
-
+/*
+const CarbonAd: FunctionComponent = () => {
+  return (
+    <AdStyle />
+    <Carbon name={`carbon-home`} placement={`navlmenetlifycom`} serve={``} />
+  );
+};
+*/
 const SidebarContent: FunctionComponent = () => {
   return (
     <StickySidebarContent>
-      <AdStyle />
-      <Carbon name={`carbon-home`} placement={`navlmenetlifycom`} serve={``} />
-
       <Bio textAlign={`right`} avatarStyle={{float: `left`, marginRight: `1em`}}/>
 
       <DownloadButton
