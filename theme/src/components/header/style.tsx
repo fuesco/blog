@@ -35,6 +35,8 @@ export const Title = styled.h1`
   display: block;
   color: #fff;
   text-shadow: 0 5px 18px rgba(0, 0, 0, .07);
+  font-family: 'Audiowide', cursive;
+  font-size: 64px;
 `;
 
 export const SubTitle = styled.h6`
@@ -48,11 +50,15 @@ export const SubTitle = styled.h6`
 `;
 
 export const Description = styled.h2`
+  color: #fafafa;
   margin: 0;
   opacity: .85;
+  &:hover {
+    opacity: 1;
+  }
 `;
 
 export const StyledTopics = styled(Typed)`
-  color: #fafafa;
-  border-bottom: 3px #000 solid;
+  color: #ffffff;
+  border-bottom: 3px #ffffff solid;
 `;

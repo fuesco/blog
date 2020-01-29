@@ -9,10 +9,8 @@ interface LogoProps {
 }
 
 const LogoImage = styled(Img)`
-  max-height: 30px;
-  width: 30px;
+  max-width: 55px;
   margin-right: 45px;
-
   @media (max-width: ${Theme.breakpoints.sm}) {
     margin-right: 15px;
   }
@@ -26,7 +24,7 @@ const HomeLink = styled(Link)`
 const Logo: FunctionComponent<LogoProps> = ({title}) => {
   const logo = useStaticQuery(graphql`
     query {
-      file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "phant.dev"}) {
+      file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "jll-logo"}) {
         childImageSharp {
           fixed(width: 30, height: 30) {
             ...GatsbyImageSharpFixed

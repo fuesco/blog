@@ -38,7 +38,7 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
         <Description>
           {description}
         </Description>
-        <SubTitle>built with ❤️ from the</SubTitle>
+        <SubTitle>supported by the</SubTitle>
         <StyledModelViewer url={'https://jetlaglabs.github.io/assets/model/earth.glb'}/>
       </TitleWrapper>
     </StyledHeader>

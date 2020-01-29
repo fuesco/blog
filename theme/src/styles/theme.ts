@@ -23,7 +23,7 @@ const Theme: DefaultTheme = {
     },
     header: {
       height: `600px`,
-      background: `#ff9900`,
+      background: `#231f20`,
     },
   },
 };

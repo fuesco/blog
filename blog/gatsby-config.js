@@ -6,9 +6,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: `phant.dev`,
-    siteUrl: `https://phantdev.netlify.com`,
-    description: `An open source guide to %TOPICS%`,
+    title: `warp`,
+    siteUrl: `https://warp-blog.netlify.com`,
+    description: `The Open Source Guide to %TOPICS%`,
     topics: [
       'Python',
       'Machine Learning',
@@ -24,6 +24,10 @@ module.exports = {
       },
       {
         name: 'About',
+        path: '/about'
+      },
+      {
+        name: 'Support',
         path: '/about'
       },
     ],
@@ -44,7 +48,7 @@ module.exports = {
     search: true,
     author: {
       name: `Naval Monga`,
-      description: `I'm <a href="https://linkedin.com/in/navalm" rel="noopener" target="_blank">naval</a>, founder of <a href="/" rel="noopener" target="_blank">phant.dev</a>
+      description: `I'm <a href="https://linkedin.com/in/navalm" rel="noopener" target="_blank">naval</a>, founder of <a href="/" rel="noopener" target="_blank">warp.</a>
         <br/>
         Like what you see?
         <br/>
@@ -52,11 +56,11 @@ module.exports = {
       social: {
         facebook: ``,
         twitter: ``,
-        linkedin: `https://www.linkedin.com/in/navalm/`,
-        instagram: `https://instagram.com/nav.code`,
+        linkedin: ``,
+        instagram: `https://instagram.com/jetlaglabs`,
         youtube: ``,
-        github: `https://github.com/navalmonga`,
-        twitch: ``
+        github: `https://github.com/jetlaglabs`,
+        twitch: `https://jetlaglabs.com`,
       }
     }
   },
@@ -71,7 +75,7 @@ module.exports = {
           background_color: `#a4cbb8`,
           theme_color: `#0f4c81`,
           display: `minimal-ui`,
-          icon: `${__dirname}/content/assets/images/phant.dev.png`
+          icon: `${__dirname}/content/assets/images/warp.dev.png`
         }
       }
     }

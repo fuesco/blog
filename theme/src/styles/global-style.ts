@@ -6,7 +6,7 @@ import * as prismStyle from "prismjs/themes/prism-okaidia.css";
 const GlobalStyle = createGlobalStyle`
   ${styledNormalize}
   ${prismStyle}
-
+  @import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
   html {
     box-sizing: border-box;
     background-color: ${Theme.layout.backgroundColor};

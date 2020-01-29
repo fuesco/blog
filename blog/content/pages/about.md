@@ -4,9 +4,7 @@ path: "/about"
 excerpt: A sample page.
 ---
 
-## phant.dev
-
-![phant.dev](https://jetlaglabs.github.io/assets/logo/phant.dev.clear.svg)
+## warp
 
 ## Dicta tela magis
 

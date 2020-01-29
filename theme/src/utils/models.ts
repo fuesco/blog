@@ -32,6 +32,7 @@ export interface SocialChannels {
   youtube?: string;
   github?: string;
   twitch?: string;
+  website?: string;
 }
 
 export interface MenuItem {

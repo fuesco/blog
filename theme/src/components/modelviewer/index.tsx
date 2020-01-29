@@ -33,11 +33,11 @@ const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
         reveal-when-loaded
         interaction-policy="allow-when-focused"
         interaction-prompt="basic"
-        style={{height: '40vh', width: '65vw'}}
+        style={{height: '30vh', width: '65vw'}}
         shadow-intensity={0.5}
         alt="A low-poly 3D model of a pizza box"
         quick-look-browsers="safari chrome"
-        background-color="#ff9900">
+        background-color="#231f20">
       </model-viewer>
     );
   } else {
