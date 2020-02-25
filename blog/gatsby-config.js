@@ -6,9 +6,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: `warp`,
+    title: `Warp`,
     siteUrl: `https://warp-blog.netlify.com`,
-    description: `The Open Source Guide to %TOPICS%`,
+    description: `An open source guide to %TOPICS%`,
     topics: [
       'Python',
       'Machine Learning',
@@ -23,11 +23,11 @@ module.exports = {
         path: '/'
       },
       {
-        name: 'About',
-        path: '/about'
+        name: 'Topics',
+        path: '/tags'
       },
       {
-        name: 'Support',
+        name: 'About',
         path: '/about'
       },
     ],
@@ -73,7 +73,7 @@ module.exports = {
           short_name: `navlme`,
           start_url: `/`,
           background_color: `#a4cbb8`,
-          theme_color: `#0f4c81`,
+          theme_color: `#121212`,
           display: `minimal-ui`,
           icon: `${__dirname}/content/assets/images/warp.dev.png`
         }

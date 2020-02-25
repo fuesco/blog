@@ -63,6 +63,7 @@ export const NavLink = styled(Link)`
 
   &:hover {
     opacity: 1;
+    color: #14bf96;
   }
 `;
 

@@ -35,8 +35,9 @@ export const Title = styled.h1`
   display: block;
   color: #fff;
   text-shadow: 0 5px 18px rgba(0, 0, 0, .07);
-  font-family: 'Audiowide', cursive;
-  font-size: 64px;
+  font-family: 'Megrim', sans-serif;
+  font-size: 72px;
+  text-transform: uppercase;
 `;
 
 export const SubTitle = styled.h6`

@@ -3,15 +3,15 @@ import {DefaultTheme} from "./default-theme";
 const Theme: DefaultTheme = {
   layout: {
     backgroundColor: `#fafafa`,
-    primaryColor: `#ff9900`,
-    linkColor: `#fff`,
+    primaryColor: `#14bf96`,
+    linkColor: `#14bf96`,
   },
   breakpoints: {
     xs: `425px`,
     sm: `576px`,
     md: `768px`,
     lg: `992px`,
-    xl: `1300px`,
+    xl: `1200px`,
   },
   fonts: {
     base: `-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, ` +
@@ -19,11 +19,11 @@ const Theme: DefaultTheme = {
   },
   components: {
     container: {
-      width: `1260px`,
+      width: `1160px`,
     },
     header: {
-      height: `600px`,
-      background: `#231f20`,
+      height: `650px`,
+      background: `#1A1A1D`,
     },
   },
 };

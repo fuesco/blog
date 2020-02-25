@@ -9,7 +9,7 @@ interface LogoProps {
 }
 
 const LogoImage = styled(Img)`
-  max-width: 55px;
+  max-width: 40px;
   margin-right: 45px;
   @media (max-width: ${Theme.breakpoints.sm}) {
     margin-right: 15px;
@@ -26,7 +26,7 @@ const Logo: FunctionComponent<LogoProps> = ({title}) => {
     query {
       file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "jll-logo"}) {
         childImageSharp {
-          fixed(width: 30, height: 30) {
+          fixed(width: 40, height: 40) {
             ...GatsbyImageSharpFixed
           }
         }

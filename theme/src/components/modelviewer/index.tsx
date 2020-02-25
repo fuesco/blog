@@ -25,7 +25,8 @@ const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
   if (isBrowser) {
     import('@google/model-viewer');
     return (
-      <model-viewer src={url}
+      <model-viewer 
+        src={url}
         camera-controls
         camera-orbit={(30 - scrollProgress) +'deg 75deg 110%'}
         preload 
@@ -37,8 +38,8 @@ const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
         shadow-intensity={0.5}
         alt="A low-poly 3D model of a pizza box"
         quick-look-browsers="safari chrome"
-        background-color="#231f20">
-      </model-viewer>
+        background-color="#1A1A1D" 
+      />
     );
   } else {
     return (
