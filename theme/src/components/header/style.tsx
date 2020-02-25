@@ -38,6 +38,13 @@ export const Title = styled.h1`
   font-family: 'Megrim', sans-serif;
   font-size: 72px;
   text-transform: uppercase;
+  ::selection {
+    background: ${Theme.layout.linkColor}; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: ${Theme.layout.linkColor}; /* Gecko Browsers */
+  }
+  background-color: ${Theme.layout.linkColor};
 `;
 
 export const SubTitle = styled.h6`
@@ -48,6 +55,12 @@ export const SubTitle = styled.h6`
   text-transform: uppercase;
   line-height: 1;
   letter-spacing: 1px;
+  ::selection {
+    background: ${Theme.layout.linkColor}; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: ${Theme.layout.linkColor}; /* Gecko Browsers */
+  }
 `;
 
 export const Description = styled.h2`
@@ -56,6 +69,15 @@ export const Description = styled.h2`
   opacity: .85;
   &:hover {
     opacity: 1;
+    span {
+      color: ${Theme.layout.linkColor};
+    }
+  }
+  ::selection {
+    background: ${Theme.layout.linkColor}; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: ${Theme.layout.linkColor}; /* Gecko Browsers */
   }
 `;
 

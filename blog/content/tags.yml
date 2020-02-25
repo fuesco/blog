@@ -16,7 +16,7 @@
   featured: true
 - name: Theme
   color: #00ffee
-  icon: ./assets/images/phant.dev.png
+  icon: ./assets/images/jet-aircraft.svg
   featured: true
 - name: Demo
   color: #f0db4f

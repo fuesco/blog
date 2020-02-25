@@ -60,7 +60,6 @@ export const NavLink = styled(Link)`
   opacity: .8;
   padding: 16px;
   transition: opacity .5s;
-
   &:hover {
     opacity: 1;
     color: #14bf96;
