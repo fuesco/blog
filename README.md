@@ -1,4 +1,6 @@
-# Nehalem Gatsby Theme
+# Warp
+
+## Nehalem Gatsby Theme
 
 ![Build Status](https://github.com/nehalist/gatsby-theme-nehalem/workflows/Node%20CI/badge.svg)
 

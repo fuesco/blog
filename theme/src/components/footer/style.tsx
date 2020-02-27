@@ -44,6 +44,7 @@ export const StyledNav = styled.nav`
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
   }
 
   li {

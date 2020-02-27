@@ -4,9 +4,11 @@ path: "/about"
 excerpt: A sample page.
 ---
 
-## warp
+## Warp
 
-## Dicta tela magis
+An open source guide to Python, Machine Learning, Design, React, Flutter, and JAMStack.  
+
+## Dicta tel
 
 Lorem markdownum greges licet est sedesque, et equos enim. Super magniloquo
 culpa, aut matrem fatur esse putes, patientia. Sacer cum esse, notavi, factus

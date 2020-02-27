@@ -22,6 +22,19 @@ exports.createPages = async ({ graphql, actions, reporter }, themeOptions) => {
 
   const result = await graphql(`
     query {
+      knowledgebase: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/(\\/knowledgebase\\/).*.(md)/" } }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              title
+              path
+            }
+            html
+          }
+        }
+      }
       pages: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/(\\/pages\\/).*.(md)/" } }
       ) {
@@ -85,10 +98,12 @@ exports.createPages = async ({ graphql, actions, reporter }, themeOptions) => {
   }
 
   const tags          = [];
+  const knowledgebase         = result.data.knowledgebase.edges.map(node => node.node);
   const posts         = result.data.posts.edges.map(node => node.node);
   const pages         = result.data.pages.edges.map(node => node.node);
   const availableTags = result.data.tags.edges.map(node => node.node).map(t => t.name) || [];
-
+  
+  
   // Create a route for every single post (located in `content/posts`)
   posts.forEach(post => {
     if (post.frontmatter.tags) {
@@ -104,6 +119,19 @@ exports.createPages = async ({ graphql, actions, reporter }, themeOptions) => {
       }
     });
   });
+
+
+  // Create a route for every single page (located in `content/pages`)
+  knowledgebase.forEach(page => {
+    actions.createPage({
+      path: page.frontmatter.path,
+      component: require.resolve(`./src/templates/page.tsx`),
+      context: {
+        page
+      }
+    });
+  });
+
 
   // Create a route for every single page (located in `content/pages`)
   pages.forEach(page => {

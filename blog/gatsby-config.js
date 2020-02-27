@@ -37,6 +37,10 @@ module.exports = {
         path: '/about'
       },
       {
+        name: 'Knowledge Base',
+        path: '/knowledge'
+      },
+      {
         name: 'Credits',
         path: '/credits'
       },
@@ -48,11 +52,11 @@ module.exports = {
     search: true,
     author: {
       name: `Naval Monga`,
-      description: `I'm <a href="https://linkedin.com/in/navalm" rel="noopener" target="_blank">naval</a>, founder of <a href="/" rel="noopener" target="_blank">warp.</a>
+      description: `I'm <a href="https://linkedin.com/in/navalm" rel="noopener" target="_blank">naval</a>, founder of <a href="/" rel="noopener" target="_blank">Warp.</a>
         <br/>
         Like what you see?
         <br/>
-        <a href="https://github.com/jetlaglabs/phant.dev" rel="noopener" target="_blank">Star on GitHub!</a>`,
+        <a href="https://github.com/jetlaglabs/warp-blog" rel="noopener" target="_blank">Star on GitHub!</a>`,
       social: {
         facebook: ``,
         twitter: ``,
