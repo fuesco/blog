@@ -1,7 +1,6 @@
-import React, {createRef, FunctionComponent} from "react";
+import React, {FunctionComponent} from "react";
 import Layout from "../components/layout";
 import Subheader from "../components/subheader";
-import ReadingProgress from "../components/reading-progress";
 import {Page} from "../utils/models";
 import Theme from "../styles/theme";
 import {Container} from "../components/common";
@@ -27,6 +26,12 @@ const PageContainer = styled(Container)`
   p:first-child {
     margin-top: 0;
   }
+  
+  li > a,
+  p > a {
+    color: ${Theme.layout.linkColor};
+    border-bottom: 2px ${Theme.layout.linkColor} solid;
+  }
 `;
 
 const PageSidebar = styled.aside`
@@ -39,7 +44,6 @@ const PageSidebar = styled.aside`
 
 const PageTemplate: FunctionComponent<PageTemplateProps> = ({pathContext, location}) => {
   const page = pathContext.page;
-  const readingProgressRef = createRef<HTMLElement>();
   return (
     <Layout bigHeader={false}>
       <SEO
@@ -48,8 +52,7 @@ const PageTemplate: FunctionComponent<PageTemplateProps> = ({pathContext, locati
         location={location}
       />
       <Subheader title={page.frontmatter.title} backgroundColor={Theme.layout.primaryColor}/>
-      <ReadingProgress target={readingProgressRef}/>
-      <PageContainer ref={readingProgressRef}>
+      <PageContainer>
         <section dangerouslySetInnerHTML={{__html: page.html}}/>
         <PageSidebar>
           <PageSidebarContent />

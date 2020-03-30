@@ -3,7 +3,7 @@ import {DefaultTheme} from "./default-theme";
 const Theme: DefaultTheme = {
   layout: {
     backgroundColor: `#fafafa`,
-    primaryColor: `#14bf96`,
+    primaryColor: `#434e5f`,
     linkColor: `#14bf96`,
   },
   breakpoints: {
@@ -14,7 +14,7 @@ const Theme: DefaultTheme = {
     xl: `1200px`,
   },
   fonts: {
-    base: `-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, ` +
+    base: `IBM Plex Sans Condensed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, ` +
       `Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif`,
   },
   components: {
@@ -22,8 +22,8 @@ const Theme: DefaultTheme = {
       width: `1160px`,
     },
     header: {
-      height: `650px`,
-      background: `#1A1A1D`,
+      height: `544px`,
+      background: `url('https://github.com/jetlaglabs/assets/blob/master/img/sky-gradient.jpg?raw=true')`,
     },
   },
 };

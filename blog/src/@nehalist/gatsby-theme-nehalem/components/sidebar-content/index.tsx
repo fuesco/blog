@@ -10,7 +10,7 @@ const StickySidebarContent = styled.div`
   top: 30px;
 `;
 
-const DownloadButton = styled.a`
+const ContributeButton = styled.a`
   background-color: #fff;
   color: #000;
   font-weight: bold;
@@ -25,8 +25,6 @@ const DownloadButton = styled.a`
   transition: .5s all;
 
   &:hover {
-    background-color: ${Theme.layout.primaryColor};
-    color: #fff;
     transform: translate3d(0, -5px, 0);
     box-shadow: 0 1px 1px #ccc, 0 4px 4px #ccc;
   }
@@ -44,14 +42,14 @@ const SidebarContent: FunctionComponent = () => {
     <StickySidebarContent>
       <Bio textAlign={`right`} avatarStyle={{float: `left`, marginRight: `1em`}}/>
 
-      <DownloadButton
+      <ContributeButton
         href={`https://navlme.netlify.com/getting-started`}
         target={`_blank`}
         rel={`noopener`}
-        aria-label={`how to contribute`}
+        aria-label={`contributing`}
       >
-         How to Contribute ⚡️
-      </DownloadButton>
+        Contributing ⚡️
+      </ContributeButton>
 
     </StickySidebarContent>
   );

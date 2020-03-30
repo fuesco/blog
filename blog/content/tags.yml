@@ -13,19 +13,15 @@
 - name: Programming
   color: "#007acc"
   icon: ./assets/images/typescript.svg
-  featured: true
+  featured: false
 - name: Theme
   color: #00ffee
   icon: ./assets/images/jet-aircraft.svg
-  featured: true
-- name: Demo
-  color: #f0db4f
-  icon: ./assets/images/javascript.svg
-  featured: true
+  featured: false
 - name: Machine Learning
   color: #f0db4f
   icon: ./assets/images/machine-learning.svg
-  featured: false
+  featured: true
 - name: Design
   color: #f0db4f
   icon: ./assets/images/design.svg

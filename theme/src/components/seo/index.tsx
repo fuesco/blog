@@ -167,6 +167,8 @@ const SEO: FunctionComponent<SEOProps> = ({
           }
         }
       `}</script>
+      <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+      <script src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
     </Helmet>
   );
 };

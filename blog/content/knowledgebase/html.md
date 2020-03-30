@@ -1,6 +1,6 @@
 ---
 title: HTML
-path: "html"
+path: "knowledge/html"
 excerpt: What is HTML.
 ---
 

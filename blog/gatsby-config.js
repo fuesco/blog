@@ -7,8 +7,8 @@
 module.exports = {
   siteMetadata: {
     title: `Warp`,
-    siteUrl: `https://warp-blog.netlify.com`,
-    description: `An open source guide to %TOPICS%`,
+    siteUrl: `https://warp.jetlaglabs.com`,
+    description: `The open source guide to %TOPICS%`,
     topics: [
       'Python',
       'Machine Learning',
@@ -16,6 +16,7 @@ module.exports = {
       'React',
       'Flutter',
       'JAMStack',
+      'Go',
     ],
     menu: [
       {
@@ -41,6 +42,10 @@ module.exports = {
         path: '/knowledge'
       },
       {
+        name: 'Bookmarks',
+        path: '/bookmarks'
+      },
+      {
         name: 'Credits',
         path: '/credits'
       },
@@ -52,7 +57,7 @@ module.exports = {
     search: true,
     author: {
       name: `Naval Monga`,
-      description: `I'm <a href="https://linkedin.com/in/navalm" rel="noopener" target="_blank">naval</a>, founder of <a href="/" rel="noopener" target="_blank">Warp.</a>
+      description: `I'm <a href="https://navl.me" rel="noopener" target="_blank">naval</a>, founder of <a href="/" rel="noopener" target="_blank">Warp.</a>
         <br/>
         Like what you see?
         <br/>

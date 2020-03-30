@@ -1,16 +1,10 @@
-# Warp
-
-## Nehalem Gatsby Theme
-
-![Build Status](https://github.com/nehalist/gatsby-theme-nehalem/workflows/Node%20CI/badge.svg)
+# warp-blog
 
 <p align="center">
-    <img src="https://github.com/nehalist/gatsby-theme-nehalem/blob/master/theme/logo.png?raw=true">
+    <img src="https://github.com/jetlaglabs/assets/blob/master/logo/jetlaglabs/favicon_io/apple-touch-icon.png?raw=true">
 </p>
 
-> Check the [Demo](https://nehalem.netlify.com)!
-
-**Nehalem** is a Gatsby theme for blogging.
+Warp is an open souce software engineering blog based on the Gatsby theme originally developed by Kevin at [nehalist.io](https://nehalist.io/about)
 
 ## Features
 
@@ -32,9 +26,7 @@ See [here](https://nehalem.netlify.com/features) for details!
 
 ## Installation
 
-> See [this repo](https://github.com/nehalist/gatsby-starter-nehalem) for a quick start!
-
-This is the mono repo containing the demo __and__ the theme. Check the [theme-specific README](theme/README.md) for further
+This is the mono repo containing the blog __and__ the theme. Check the [theme-specific README](theme/README.md) for further
 details on the theme.
 
 In case you want to work with this mono repo (for local development, pull requests, etc.):
@@ -43,19 +35,15 @@ In case you want to work with this mono repo (for local development, pull reques
 
 2. Run `yarn` to install dependencies
 
-3. Run `yarn workspace demo develop` to start the demo locally.
+3. Run `yarn workspace blog develop` to start the blog locally.
 
 ## Documentation
 
-The entire documentation can be found on the [Demo](https://nehalem.netlify.com). Alternatively check
-the [GitHub repository](https://github.com/nehalist/gatsby-theme-nehalem).
 
 ## Like the theme?
 
-Happy to hear that! Feel free to star it on [GitHub](https://github.com/nehalist/gatsby-theme-nehalem)!
-
 ## Author
 
-Developed by [nehalist.io](https://nehalist.io).
+This blog was developed by [navalmonga](https://navl.me).
 
-*Big thanks to my SO for the awesome logo!*
+*Thanks to my [freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com) for the awesome logo!*

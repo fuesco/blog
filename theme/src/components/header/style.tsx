@@ -35,16 +35,10 @@ export const Title = styled.h1`
   display: block;
   color: #fff;
   text-shadow: 0 5px 18px rgba(0, 0, 0, .07);
-  font-family: 'Megrim', sans-serif;
-  font-size: 72px;
+  font-size: 5rem;
   text-transform: uppercase;
-  ::selection {
-    background: ${Theme.layout.linkColor}; /* WebKit/Blink Browsers */
-  }
-  ::-moz-selection {
-    background: ${Theme.layout.linkColor}; /* Gecko Browsers */
-  }
-  background-color: ${Theme.layout.linkColor};
+  font-style: italic;
+  letter-spacing: 1rem;
 `;
 
 export const SubTitle = styled.h6`

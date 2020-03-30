@@ -4,8 +4,4 @@ export const StyledModelViewer = styled.div`
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  @media (max-width: 40em) {
-    display: none;
-    visibility: hidden;
-  }
 `;

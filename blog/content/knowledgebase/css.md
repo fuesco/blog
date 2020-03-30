@@ -1,6 +1,6 @@
 ---
 title: CSS
-path: "/css"
+path: "knowledge/css"
 excerpt: What is CSS.
 ---
 

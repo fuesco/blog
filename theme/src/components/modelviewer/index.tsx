@@ -1,11 +1,18 @@
 import React, {FunctionComponent, useEffect, useState} from "react";
-const isBrowser = typeof window !== 'undefined';
+import {StyledModelViewer} from "./style";
 
+const isBrowser = typeof window !== 'undefined';
 interface ModelViewerProps {
   url: string;
 }
 
-
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'model-viewer': any;
+    }
+  }
+}
 
 const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
   const [scrollProgress, setScrollProgress] = useState<number>(0);
@@ -23,29 +30,31 @@ const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
   // const orbit = `calc(30deg - env(window-scroll-y) * 100deg) 75deg 2.5m`
   // camera-orbit={(30 - scrollProgress) +'deg 75deg 2.5m'}
   if (isBrowser) {
-    import('@google/model-viewer');
+    //import('@google/model-viewer');
     return (
-      <model-viewer 
-        src={url}
-        camera-controls
-        camera-orbit={(30 - scrollProgress) +'deg 75deg 110%'}
-        preload 
-        id="mview"
-        reveal-when-loaded
-        interaction-policy="allow-when-focused"
-        interaction-prompt="basic"
-        style={{height: '30vh', width: '65vw'}}
-        shadow-intensity={0.5}
-        alt="A low-poly 3D model of a pizza box"
-        quick-look-browsers="safari chrome"
-        background-color="#1A1A1D" 
-      />
+      <StyledModelViewer>
+        <model-viewer 
+          src={url}
+          camera-controls
+          camera-orbit={(30 - scrollProgress) +'deg 75deg 115%'} 
+          reveal-when-loaded
+          interaction-policy="allow-when-focused"
+          interaction-prompt="basic"
+          interaction-prompt-style="wiggle"
+          style={{height: '25vh', width: '50vw', backgroundColor: 'unset'}}
+          shadow-intensity={0.5}
+          alt="A low-poly 3D model of the earth"
+          auto-rotate
+          background-color="transparent"
+        />
+      </StyledModelViewer>
     );
   } else {
     return (
-      <img src="https://jetlaglabs.github.io/assets/img/vr.svg" alt="vr" width="555px" height="343px" />
+      <img src="https://jetlaglabs.github.io/assets/img/sky-gradient.jpg" alt="vr" width="555px" height="343px" />
     )
   }
 };
+
 
 export default ModelViewer;

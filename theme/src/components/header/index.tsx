@@ -12,7 +12,8 @@ interface HeaderProps {
   menu: MenuItem[];
   search: boolean;
 }
-
+const models = ['earth', 'robot', 'pizza']
+const randomModel = models[0]
 const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topics = [], search = true}) => {
   if (topics.length > 0) {
     description = reactStringReplace(description, '%TOPICS%', (match, i) => {
@@ -21,7 +22,7 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
           strings={topics}
           typeSpeed={50}
           backSpeed={60}
-          shuffle={true}
+          shuffle={false}
           backDelay={2000}
           loop={true}
           key={match + i}
@@ -39,7 +40,7 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
           {description}
         </Description>
         <SubTitle>supported by the</SubTitle>
-        <StyledModelViewer url={'https://jetlaglabs.github.io/assets/model/earth.glb'}/>
+        <StyledModelViewer url={`https://jetlaglabs.github.io/assets/model/${randomModel}.glb`}/>
       </TitleWrapper>
     </StyledHeader>
   );

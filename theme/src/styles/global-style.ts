@@ -6,7 +6,7 @@ import * as prismStyle from "prismjs/themes/prism-okaidia.css";
 const GlobalStyle = createGlobalStyle`
   ${styledNormalize}
   ${prismStyle}
-  @import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,400i,700,700i&display=swap');
   html {
     box-sizing: border-box;
     background-color: ${Theme.layout.backgroundColor};
@@ -43,10 +43,6 @@ const GlobalStyle = createGlobalStyle`
     padding-left: 0.75em;
   }
 
-  #mview {
-    outline: none !important;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); /* mobile webkit */
-  }
 `;
 
 export default GlobalStyle;

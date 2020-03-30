@@ -46,7 +46,7 @@ export const SearchInput = styled.input`
 
 export const ResultsTitle = styled.h5`
   padding: 5px 15px;
-  background-color: #000;
+  background-color: #434e5f;
   margin: 0;
   color: #fff;
 `;
