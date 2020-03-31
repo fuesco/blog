@@ -11,7 +11,7 @@ const Theme: DefaultTheme = {
     sm: `576px`,
     md: `768px`,
     lg: `992px`,
-    xl: `1200px`,
+    xl: `1000px`,
   },
   fonts: {
     base: `IBM Plex Sans Condensed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, ` +

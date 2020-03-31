@@ -1,3 +1,3 @@
-# Nehalem Demo
+# Blog Demo
 
 Hey there.

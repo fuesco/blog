@@ -1,7 +1,7 @@
 import React, {FunctionComponent} from "react";
 import styled from "styled-components";
 import Bio from "@nehalist/gatsby-theme-nehalem/src/components/bio";
-import Theme from "@nehalist/gatsby-theme-nehalem/src/styles/theme";
+// import Theme from "@nehalist/gatsby-theme-nehalem/src/styles/theme";
 // import Carbon from "react-carbon";
 // import AdStyle from "./style";
 
@@ -15,7 +15,9 @@ const ContributeButton = styled.a`
   color: #000;
   font-weight: bold;
   box-shadow: 0 1px 1px #e6e6e6, 0 2px 4px #e6e6e6;
-  display: block;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   width: 100%;
   padding: 15px;
   font-size: 1.2em;
@@ -28,6 +30,11 @@ const ContributeButton = styled.a`
     transform: translate3d(0, -5px, 0);
     box-shadow: 0 1px 1px #ccc, 0 4px 4px #ccc;
   }
+`;
+
+const PatreonIcon = styled.img`
+  width: 18px;
+  height: auto;
 `;
 /*
 const CarbonAd: FunctionComponent = () => {
@@ -43,12 +50,13 @@ const SidebarContent: FunctionComponent = () => {
       <Bio textAlign={`right`} avatarStyle={{float: `left`, marginRight: `1em`}}/>
 
       <ContributeButton
-        href={`https://navlme.netlify.com/getting-started`}
+        href={`https://www.patreon.com/jetlaglabs`}
         target={`_blank`}
         rel={`noopener`}
         aria-label={`contributing`}
       >
-        Contributing ⚡️
+        Become a Patron
+        <PatreonIcon src="https://jetlaglabs.github.io/assets/icons/patreon_mark_black.svg" alt="patreon symbol" />
       </ContributeButton>
 
     </StickySidebarContent>
@@ -56,3 +64,5 @@ const SidebarContent: FunctionComponent = () => {
 };
 
 export default SidebarContent;
+
+//https://github.com/jetlaglabs/assets/blob/master/icons/patreon_mark_black.svg?raw=true

@@ -29,7 +29,9 @@ export const DesignBy = styled.p`
   font-size: .8em;
 
   a {
-    font-weight: bold;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
     text-decoration: none;
     color: #000;
 

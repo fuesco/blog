@@ -11,7 +11,8 @@ module.exports = {
     description: `The open source guide to %TOPICS%`,
     topics: [
       'Python',
-      'Machine Learning',
+      'AWS',
+      'Programming',
       'Design',
       'React',
       'Flutter',
@@ -38,12 +39,12 @@ module.exports = {
         path: '/about'
       },
       {
-        name: 'Knowledge Base',
-        path: '/knowledge'
-      },
-      {
         name: 'Bookmarks',
         path: '/bookmarks'
+      },
+      {
+        name: 'Newsletter',
+        path: '/knowledge'
       },
       {
         name: 'Credits',
@@ -78,8 +79,8 @@ module.exports = {
       resolve: `@nehalist/gatsby-theme-nehalem`,
       options: {
         manifest: {
-          name: `navlme - A Gatsby theme`,
-          short_name: `navlme`,
+          name: `warp - A Gatsby theme`,
+          short_name: `warp`,
           start_url: `/`,
           background_color: `#a4cbb8`,
           theme_color: `#121212`,

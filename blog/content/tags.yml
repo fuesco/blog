@@ -2,6 +2,18 @@
   color: #f0db4f
   icon: ./assets/images/python.svg
   featured: true
+- name: Amazon Web Services
+  color: "#E57A2C"
+  icon: ./assets/images/aws.svg
+  featured: true
+- name: Programming
+  color: "#007acc"
+  icon: ./assets/images/typescript.svg
+  featured: true
+- name: Design
+  color: #f0db4f
+  icon: ./assets/images/design.svg
+  featured: true
 - name: React
   color: #f0db4f
   icon: ./assets/images/react.svg
@@ -9,24 +21,8 @@
 - name: Flutter
   color: #f0db4f
   icon: ./assets/images/flutter.svg
-  featured: true
-- name: Programming
-  color: "#007acc"
-  icon: ./assets/images/typescript.svg
   featured: false
 - name: Theme
   color: #00ffee
   icon: ./assets/images/jet-aircraft.svg
-  featured: false
-- name: Machine Learning
-  color: #f0db4f
-  icon: ./assets/images/machine-learning.svg
-  featured: true
-- name: Design
-  color: #f0db4f
-  icon: ./assets/images/design.svg
-  featured: false
-- name: JAMStack
-  color: #f0db4f
-  icon: ./assets/images/jamstack.svg
   featured: false

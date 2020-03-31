@@ -47,3 +47,7 @@ In case you want to work with this mono repo (for local development, pull reques
 This blog was developed by [navalmonga](https://navl.me).
 
 *Thanks to my [freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com) for the awesome logo!*
+
+(TODO): Credit topics icons
+
+- AWS SVG (Wikicommons)

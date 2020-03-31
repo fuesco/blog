@@ -132,7 +132,7 @@ const PostHeader = styled.header`
 
 const FeaturedImage = styled(Img)`
   border-radius: 0;
-
+  max-height: 65vh;
   @media (max-width: ${Theme.breakpoints.xl}) {
     margin-left: -1px;
     margin-right: -1px;

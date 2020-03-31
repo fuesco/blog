@@ -12,4 +12,6 @@ updated: 2019-03-03
 
 Warp was created in order to share my experiences in learning new web technologies. My name is Naval Monga and I have a Bachelors in Computer Science from the University of Maryland. My first few posts will cover introudctions to Python, Flask, and setting up a complete full stack app using both. 
 
-*Cover by [@stephenleo1982](https://unsplash.com/@stephenleo1982)*
+## Our Vision
+
+*Cover by [Stephen Leonardi](https://unsplash.com/@stephenleo1982)*

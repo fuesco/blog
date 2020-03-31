@@ -60,6 +60,17 @@ export const TagArchiveLinkWrapper = styled.div`
 `;
 
 export const TagArchiveLink = styled(Link)`
+  transition: all 0.2s ease-in-out;
+  border: 1px solid ${Theme.layout.primaryColor};
+  color: ${Theme.layout.primaryColor};
+  padding: 6px 12px;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
   font-style: italic;
+  font-weight: 400;
   font-size: .8em;
+  &:hover {
+    background-color: ${Theme.layout.primaryColor};
+    color: ${Theme.layout.backgroundColor};
+  }
 `;

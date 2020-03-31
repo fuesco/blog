@@ -23,6 +23,12 @@ const GlobalStyle = createGlobalStyle`
 
   h1, h2, h3, h4, h5, h6 {
     outline: none;
+    ::selection {
+      background: ${Theme.layout.linkColor}; /* WebKit/Blink Browsers */
+    }
+    ::-moz-selection {
+      background: ${Theme.layout.linkColor}; /* Gecko Browsers */
+    }
   }
 
   a {

@@ -4,6 +4,7 @@ import Typed from 'react-typed';
 
 export const StyledHeader = styled.header`
   display: flex;
+  background-color: ${Theme.layout.primaryColor};
   background: ${Theme.components.header.background};
   flex-direction: column;
   height: ${Theme.components.header.height};
@@ -49,12 +50,6 @@ export const SubTitle = styled.h6`
   text-transform: uppercase;
   line-height: 1;
   letter-spacing: 1px;
-  ::selection {
-    background: ${Theme.layout.linkColor}; /* WebKit/Blink Browsers */
-  }
-  ::-moz-selection {
-    background: ${Theme.layout.linkColor}; /* Gecko Browsers */
-  }
 `;
 
 export const Description = styled.h2`
