@@ -1,10 +1,11 @@
-# warp-blog
+## warp-blog
 
-<p align="center">
-    <img src="https://github.com/jetlaglabs/assets/blob/master/logo/jetlaglabs/favicon_io/apple-touch-icon.png?raw=true">
-</p>
+---
+<img src="https://github.com/jetlaglabs/assets/blob/master/logo/jetlaglabs/favicon_io/apple-touch-icon.png?raw=true">
 
-Warp is an open souce software engineering blog based on the Gatsby theme originally developed by Kevin at [nehalist.io](https://nehalist.io/about)
+Warp is an open source software engineering blog based on the Gatsby theme originally developed by Kevin at [nehalist.io](https://nehalist.io/about)
+
+---
 
 ## Features
 
@@ -44,7 +45,9 @@ In case you want to work with this mono repo (for local development, pull reques
 
 ## Author
 
-This blog was developed by [navalmonga](https://navl.me).
+This blog is primary maintained by [navalmonga](https://navm.tech).
+
+Thanks to [nehalist](https://github.com/nehalist) for the awesome theme.
 
 *Thanks to my [freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com) for the awesome logo!*
 

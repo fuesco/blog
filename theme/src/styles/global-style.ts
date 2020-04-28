@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
   html {
     box-sizing: border-box;
     background-color: ${Theme.layout.backgroundColor};
+    scroll-behavior: smooth;
   }
 
   body {

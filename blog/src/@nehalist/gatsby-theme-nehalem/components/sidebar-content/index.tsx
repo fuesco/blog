@@ -16,7 +16,7 @@ const ContributeButton = styled.a`
   font-weight: bold;
   box-shadow: 0 1px 1px #e6e6e6, 0 2px 4px #e6e6e6;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   padding: 15px;
@@ -55,8 +55,8 @@ const SidebarContent: FunctionComponent = () => {
         rel={`noopener`}
         aria-label={`contributing`}
       >
-        Become a Patron
         <PatreonIcon src="https://jetlaglabs.github.io/assets/icons/patreon_mark_black.svg" alt="patreon symbol" />
+        Become a Patron
       </ContributeButton>
 
     </StickySidebarContent>

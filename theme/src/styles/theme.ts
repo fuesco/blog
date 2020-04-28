@@ -4,7 +4,7 @@ const Theme: DefaultTheme = {
   layout: {
     backgroundColor: `#fafafa`,
     primaryColor: `#434e5f`,
-    linkColor: `#14bf96`,
+    linkColor: `#21ce99`,
   },
   breakpoints: {
     xs: `425px`,
@@ -19,11 +19,11 @@ const Theme: DefaultTheme = {
   },
   components: {
     container: {
-      width: `1160px`,
+      width: `1200px`,
     },
     header: {
       height: `544px`,
-      background: `url('https://github.com/jetlaglabs/assets/blob/master/img/sky-gradient.jpg?raw=true')`,
+      background: `url('https://jlassets.s3.amazonaws.com/jpg/sky-gradient.jpg')`,
     },
   },
 };

@@ -29,6 +29,10 @@ module.exports = {
         path: '/tags'
       },
       {
+        name: 'Knowledge Base',
+        path: '/knowledge'
+      },
+      {
         name: 'About',
         path: '/about'
       },
@@ -44,11 +48,7 @@ module.exports = {
       },
       {
         name: 'Newsletter',
-        path: '/knowledge'
-      },
-      {
-        name: 'Credits',
-        path: '/credits'
+        path: '/newsletter'
       },
       {
         name: 'RSS',
@@ -58,7 +58,7 @@ module.exports = {
     search: true,
     author: {
       name: `Naval Monga`,
-      description: `I'm <a href="https://navl.me" rel="noopener" target="_blank">naval</a>, founder of <a href="/" rel="noopener" target="_blank">Warp.</a>
+      description: `I'm <a href="https://navm.tech" rel="noopener" target="_blank">naval</a>, founder of <a href="#">Warp.</a>
         <br/>
         Like what you see?
         <br/>

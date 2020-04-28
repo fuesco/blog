@@ -36,10 +36,9 @@ export const Title = styled.h1`
   display: block;
   color: #fff;
   text-shadow: 0 5px 18px rgba(0, 0, 0, .07);
-  font-size: 5rem;
+  font-size: 4.4rem;
   text-transform: uppercase;
   font-style: italic;
-  letter-spacing: 1rem;
 `;
 
 export const SubTitle = styled.h6`
@@ -49,7 +48,7 @@ export const SubTitle = styled.h6`
   opacity: .85;
   text-transform: uppercase;
   line-height: 1;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 `;
 
 export const Description = styled.h2`
@@ -60,6 +59,7 @@ export const Description = styled.h2`
     opacity: 1;
     span {
       color: ${Theme.layout.linkColor};
+      border-bottom-color: ${Theme.layout.linkColor};
     }
   }
   ::selection {
