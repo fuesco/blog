@@ -49,9 +49,7 @@ const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
       </StyledModelViewer>
     );
   } else {
-    return (
-      <img src="https://jetlaglabs.github.io/assets/img/sky-gradient.jpg" alt="vr" width="555px" height="343px" />
-    )
+    return null;
   }
 };
 
