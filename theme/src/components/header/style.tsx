@@ -6,6 +6,8 @@ export const StyledHeader = styled.header`
   display: flex;
   background-color: ${Theme.layout.primaryColor};
   background: ${Theme.components.header.background};
+  background-size: cover;
+  background-position: 45% 70%;
   flex-direction: column;
   height: ${Theme.components.header.height};
   border-bottom: 2px #ededed solid;
@@ -17,12 +19,12 @@ export const StyledHeader = styled.header`
 
 export const TitleWrapper = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 100%;
   flex-direction: column;
   overflow: hidden;
-
+  margin-top: -25px;
   @media (max-width: ${Theme.breakpoints.sm}) {
     margin-top: -50px;
     font-size: .75em;
@@ -55,10 +57,13 @@ export const Description = styled.h2`
   color: #fafafa;
   margin: 0;
   opacity: .85;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
   &:hover {
     opacity: 1;
     span {
-      color: ${Theme.layout.linkColor};
       border-bottom-color: ${Theme.layout.linkColor};
     }
   }
@@ -71,6 +76,24 @@ export const Description = styled.h2`
 `;
 
 export const StyledTopics = styled(Typed)`
-  color: #ffffff;
+  color: ${Theme.layout.linkColor};
   border-bottom: 3px #ffffff solid;
+`;
+
+export const StyledCoverCredit = styled.a`
+  align-self: flex-end;
+  margin-top: 8vh;
+  margin-right: 1rem;
+  font-size: 10px;
+  background-color: #ffffff;
+  color: ${Theme.layout.primaryColor};
+  font-weight: 500;
+  opacity: .85;
+  text-transform: uppercase;
+  line-height: 1;
+  padding-left: 2px;
+  letter-spacing: 2px;
+  &:hover {
+    opacity: 1;
+  }
 `;

@@ -6,5 +6,6 @@ excerpt: Important and helpful bookmarks to help development.
 
 ## Important Links
 
-* [fiveideasaday](https://www.fiveideasaday.com/) - Idea inspiration
-* [Google Fonts](https://fonts.google.com/) - Custom fonts
+* <a href="/knowledge" alt="warp knowledge base">Knowledge Base</a> - Warp Knowledge Base
+* [Google Fonts](https://fonts.google.com/) - Custom Fonts
+* [Five Ideas A Day](https://www.fiveideasaday.com/) - Idea Inspiration

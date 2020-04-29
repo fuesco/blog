@@ -1,7 +1,7 @@
 import React, {FunctionComponent} from "react";
 import StyledModelViewer from "../modelviewer";
 import StyledNavigation from "../navigation";
-import {Description, StyledHeader, StyledTopics, Title, SubTitle, TitleWrapper} from "./style";
+import {Description, StyledHeader, StyledTopics, Title, SubTitle, TitleWrapper, StyledCoverCredit} from "./style";
 import reactStringReplace from 'react-string-replace';
 import {MenuItem} from "../../utils/models";
 
@@ -41,6 +41,7 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
         </Description>
         <SubTitle>supported by the</SubTitle>
         <StyledModelViewer url={`https://jetlaglabs.github.io/assets/model/${randomModel}.glb`}/>
+        <StyledCoverCredit href="https://unsplash.com/@nate_dumlao" target="_blank" rel="nooopener">Cover by Nathan Dumlao &rarr;</StyledCoverCredit>
       </TitleWrapper>
     </StyledHeader>
   );

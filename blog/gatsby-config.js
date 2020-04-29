@@ -29,10 +29,6 @@ module.exports = {
         path: '/tags'
       },
       {
-        name: 'Knowledge Base',
-        path: '/knowledge'
-      },
-      {
         name: 'About',
         path: '/about'
       },
@@ -58,7 +54,7 @@ module.exports = {
     search: true,
     author: {
       name: `Naval Monga`,
-      description: `I'm <a href="https://navm.tech" rel="noopener" target="_blank">naval</a>, founder of <a href="#">Warp.</a>
+      description: `I'm <a href="https://navm.tech" rel="noopener" target="_blank">Naval</a>, founder of <b>Warp.</b>
         <br/>
         Like what you see?
         <br/>

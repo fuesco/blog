@@ -19,11 +19,11 @@ const Theme: DefaultTheme = {
   },
   components: {
     container: {
-      width: `1200px`,
+      width: `1000px`,
     },
     header: {
-      height: `544px`,
-      background: `url('https://jlassets.s3.amazonaws.com/jpg/sky-gradient.jpg')`,
+      height: `75vh`,
+      background: `url('https://jlassets.s3.amazonaws.com/jpg/nathan-dumlao.jpg')`,
     },
   },
 };

@@ -36,13 +36,12 @@ const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
         <model-viewer 
           src={url}
           camera-controls
-          camera-orbit={(30 - scrollProgress) +'deg 75deg 115%'} 
+          camera-orbit={(30 - scrollProgress) +'deg 75deg 135%'} 
           reveal-when-loaded
           interaction-policy="allow-when-focused"
           interaction-prompt="auto"
           interaction-prompt-style="wiggle"
-          style={{height: '18.5vh', width: '30vw', backgroundColor: 'unset'}}
-          shadow-intensity={0.5}
+          style={{height: '20vh', width: '33vw', backgroundColor: 'unset'}}
           alt="A low-poly 3D model of the earth"
           auto-rotate
         />

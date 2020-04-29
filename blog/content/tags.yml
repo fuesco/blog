@@ -16,12 +16,12 @@
   featured: true
 - name: React
   color: #f0db4f
-  icon: ./assets/images/react.svg
+  icon: ./assets/images/javascript.svg
   featured: true
 - name: Flutter
   color: #f0db4f
   icon: ./assets/images/flutter.svg
-  featured: false
+  featured: true
 - name: Theme
   color: #00ffee
   icon: ./assets/images/jet-aircraft.svg
