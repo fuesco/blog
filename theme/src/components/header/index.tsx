@@ -37,11 +37,11 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
       <TitleWrapper>
         <Title>{title}</Title>
         <Description>
-          {description}
+          {description}.
         </Description>
         <SubTitle>supported by the</SubTitle>
-        <StyledModelViewer url={`https://jetlaglabs.github.io/assets/model/${randomModel}.glb`}/>
-        <StyledCoverCredit href="https://unsplash.com/@nate_dumlao" target="_blank" rel="nooopener">Cover by Nathan Dumlao &rarr;</StyledCoverCredit>
+        <StyledModelViewer url={`https://fuesco.github.io/assets/model/${randomModel}.glb`}/>
+        <StyledCoverCredit href="https://unsplash.com/" target="_blank" rel="nooopener">Cover by Unsplash &rarr;</StyledCoverCredit>
       </TitleWrapper>
     </StyledHeader>
   );

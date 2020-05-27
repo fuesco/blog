@@ -62,7 +62,7 @@ export const NavLink = styled(Link)`
   transition: opacity .5s;
   &:hover {
     opacity: 1;
-    color: #14bf96;
+    color: ${Theme.layout.linkColor};
   }
 `;
 

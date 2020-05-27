@@ -6,14 +6,14 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Warp`,
-    siteUrl: `https://warp.jetlaglabs.com`,
+    title: `Fues Blog`,
+    siteUrl: `https://blog.fues.us/`,
     description: `The open source guide to %TOPICS%`,
     topics: [
-      'Python',
-      'AWS',
       'Programming',
       'Design',
+      'Python',
+      'AWS',
       'React',
       'Flutter',
       'JAMStack',
@@ -25,12 +25,12 @@ module.exports = {
         path: '/'
       },
       {
-        name: 'Topics',
-        path: '/tags'
-      },
-      {
         name: 'About',
         path: '/about'
+      },
+      {
+        name: 'Topics',
+        path: '/tags'
       },
     ],
     footerMenu: [
@@ -54,19 +54,19 @@ module.exports = {
     search: true,
     author: {
       name: `Naval Monga`,
-      description: `I'm <a href="https://navm.tech" rel="noopener" target="_blank">Naval</a>, founder of <b>Warp.</b>
+      description: `I'm <a href="https://navm.tech" rel="noopener" target="_blank">Naval</a>, founder of <b><em>FUES™</em></b>.
         <br/>
         Like what you see?
         <br/>
-        <a href="https://github.com/jetlaglabs/warp-blog" rel="noopener" target="_blank">Star on GitHub!</a>`,
+        <a href="https://github.com/fuesco/fues-blog" rel="noopener" target="_blank">Star on GitHub!</a>`,
       social: {
         facebook: ``,
-        twitter: ``,
-        linkedin: ``,
-        instagram: `https://instagram.com/jetlaglabs`,
-        youtube: ``,
-        github: `https://github.com/jetlaglabs`,
-        twitch: `https://jetlaglabs.com`,
+        twitter: `https://twitter.com/`,
+        linkedin: `https://linkedin.com/`,
+        instagram: `https://instagram.com/fuesco/`,
+        youtube: `https://youtube.com/`,
+        github: `https://github.com/fuesco/`,
+        twitch: ``,
       }
     }
   },

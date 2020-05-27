@@ -1,10 +1,16 @@
 import {DefaultTheme} from "./default-theme";
 
+const getRandomUnsplashImgUrl = () => {
+  const unsplashApi = 'https://source.unsplash.com/random'
+  // image size - const size = '/'
+  return `${unsplashApi}`
+}
+
 const Theme: DefaultTheme = {
   layout: {
     backgroundColor: `#fafafa`,
-    primaryColor: `#434e5f`,
-    linkColor: `#3ce4ad`,
+    primaryColor: `#f3752b`,
+    linkColor: `#f3752b`,
   },
   breakpoints: {
     xs: `425px`,
@@ -23,7 +29,7 @@ const Theme: DefaultTheme = {
     },
     header: {
       height: `75vh`,
-      background: `url('https://jlassets.s3.amazonaws.com/jpg/nathan-dumlao.jpg')`,
+      background: `url('${getRandomUnsplashImgUrl()}')`,
     },
   },
 };

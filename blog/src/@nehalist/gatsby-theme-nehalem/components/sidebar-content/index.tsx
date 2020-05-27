@@ -55,8 +55,8 @@ const SidebarContent: FunctionComponent = () => {
         rel={`noopener`}
         aria-label={`contributing`}
       >
-        <PatreonIcon src="https://jetlaglabs.github.io/assets/icons/patreon_mark_black.svg" alt="patreon symbol" />
-        Become a Patron
+        <PatreonIcon src="https://fuesco.github.io/assets/icons/patreon_mark_black.svg" alt="patreon symbol" />
+        Support us on Patreon
       </ContributeButton>
 
     </StickySidebarContent>

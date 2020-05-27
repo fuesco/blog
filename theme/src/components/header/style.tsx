@@ -5,9 +5,9 @@ import Typed from 'react-typed';
 export const StyledHeader = styled.header`
   display: flex;
   background-color: ${Theme.layout.primaryColor};
-  background: ${Theme.components.header.background};
+  background: ${Theme.components.header.background} rgba(224, 31, 61, 0.85);
   background-size: cover;
-  background-position: 45% 70%;
+  background-blend-mode: multiply;
   flex-direction: column;
   height: ${Theme.components.header.height};
   border-bottom: 2px #ededed solid;
@@ -38,7 +38,7 @@ export const Title = styled.h1`
   display: block;
   color: #fff;
   text-shadow: 0 5px 18px rgba(0, 0, 0, .07);
-  font-size: 4.4rem;
+  font-size: 3rem;
   text-transform: uppercase;
   font-style: italic;
 `;
@@ -63,9 +63,6 @@ export const Description = styled.h2`
   text-transform: uppercase;
   &:hover {
     opacity: 1;
-    span {
-      border-bottom-color: ${Theme.layout.linkColor};
-    }
   }
   ::selection {
     background: ${Theme.layout.linkColor}; /* WebKit/Blink Browsers */
@@ -77,12 +74,12 @@ export const Description = styled.h2`
 
 export const StyledTopics = styled(Typed)`
   color: ${Theme.layout.linkColor};
-  border-bottom: 3px #ffffff solid;
+  border-bottom: 2px ${Theme.layout.linkColor} solid;
 `;
 
 export const StyledCoverCredit = styled.a`
   align-self: flex-end;
-  margin-top: 8vh;
+  margin-top: 4rem;
   margin-right: 1rem;
   font-size: 10px;
   background-color: #ffffff;

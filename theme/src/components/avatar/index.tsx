@@ -9,7 +9,7 @@ interface AvatarProps {
 }
 
 const StyledAvatar = styled(Img)<AvatarProps>`
-  max-width: 55px;
+  max-width: 70px;
   border-radius: 0%;
 `;
 
@@ -19,9 +19,9 @@ const StyledAvatar = styled(Img)<AvatarProps>`
 const Avatar: FunctionComponent<AvatarProps> = ({alt, style}) => {
   const logo = useStaticQuery(graphql`
     query {
-      file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "jll-logo-dark"}) {
+      file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "fues-color"}) {
         childImageSharp {
-          fixed(width: 55, height: 55) {
+          fixed(width: 70, height: 50) {
             ...GatsbyImageSharpFixed
           }
         }
