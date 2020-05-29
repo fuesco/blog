@@ -41,7 +41,7 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
         </Description>
         <SubTitle>supported by the</SubTitle>
         <StyledModelViewer url={`https://fuesco.github.io/assets/model/${randomModel}.glb`}/>
-        <StyledCoverCredit href="https://unsplash.com/" target="_blank" rel="nooopener">Cover by Unsplash &rarr;</StyledCoverCredit>
+        <StyledCoverCredit href="https://unsplash.com/@tengyart" target="_blank" rel="nooopener">Cover by Tengyart &rarr;</StyledCoverCredit>
       </TitleWrapper>
     </StyledHeader>
   );

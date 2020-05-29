@@ -1,28 +1,32 @@
-- name: Python
-  color: #f0db4f
-  icon: ./assets/images/python.svg
-  featured: true
-- name: Amazon Web Services
-  color: "#E57A2C"
-  icon: ./assets/images/aws.svg
-  featured: true
 - name: Programming
   color: "#007acc"
   icon: ./assets/images/typescript.svg
   featured: true
+- name: Python
+  color: #f0db4f
+  icon: ./assets/images/python.svg
+  featured: true
+- name: Go
+  color: "#007acc"
+  icon: ./assets/images/golang.svg
+  featured: false
+- name: Amazon Web Services
+  color: "#E57A2C"
+  icon: ./assets/images/aws.svg
+  featured: true
 - name: Design
   color: #f0db4f
   icon: ./assets/images/design.svg
-  featured: true
+  featured: false
 - name: React
   color: #f0db4f
   icon: ./assets/images/javascript.svg
-  featured: true
+  featured: false
 - name: Flutter
   color: #f0db4f
   icon: ./assets/images/flutter.svg
   featured: true
 - name: Theme
   color: #00ffee
-  icon: ./assets/images/jet-aircraft.svg
+  icon: ./assets/images/fues-logo-color.svg
   featured: false

@@ -10,7 +10,7 @@ interface LogoProps {
 }
 
 const LogoImage = styled(Img)`
-  max-width: 55px;
+  width: 36px;
   margin-right: 45px;
   @media (max-width: ${Theme.breakpoints.sm}) {
     margin-right: 15px;
@@ -19,8 +19,8 @@ const LogoImage = styled(Img)`
 
 const HomeLink = styled(Link)`
   align-self: center;
-  height: 50px;
-  padding-top: 0.4rem;
+  height: 36px;
+  padding-top: 0.25rem;
 `;
 
 const Logo: FunctionComponent<LogoProps> = ({title}) => {
@@ -28,7 +28,7 @@ const Logo: FunctionComponent<LogoProps> = ({title}) => {
     query {
       file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "fues-dark"}) {
         childImageSharp {
-          fixed(width: 55, height: 36) {
+          fixed(width: 36, height: 24) {
             ...GatsbyImageSharpFixed_tracedSVG
           }
         }

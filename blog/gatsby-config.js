@@ -43,10 +43,6 @@ module.exports = {
         path: '/bookmarks'
       },
       {
-        name: 'Newsletter',
-        path: '/newsletter'
-      },
-      {
         name: 'RSS',
         path: '/rss.xml'
       }

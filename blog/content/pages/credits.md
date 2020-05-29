@@ -1,19 +1,13 @@
 ---
 title: Credits
 path: "/credits"
-excerpt: Technologies and resources that power this website.
+excerpt: Technologies and resources that power this website and allow Fues to grow.
 ---
 
-## Logo
-
-![jetlaglags logo](https://jetlaglabs.github.io/assets/logo/jet-aircraft.svg)
-
-[Freepik](https://iconscout.com/icon/jupiter-1841572)
-
-## Theme
+## Gatsby Theme and Tutorials
 
 [nehalist.io](https://nehalist.io/)
 
-## Hosting
+## Web Hosting
 
 [Netlify](https://netlify.com)

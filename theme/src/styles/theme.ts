@@ -1,9 +1,10 @@
 import {DefaultTheme} from "./default-theme";
 
 const getRandomUnsplashImgUrl = () => {
-  const unsplashApi = 'https://source.unsplash.com/random'
+  // const unsplashApi = 'https://source.unsplash.com/random'
+  const awhinUnsplash = 'https://images.unsplash.com/photo-1588556591443-bfa59cf8e0f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'
   // image size - const size = '/'
-  return `${unsplashApi}`
+  return `${awhinUnsplash}`
 }
 
 const Theme: DefaultTheme = {

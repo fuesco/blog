@@ -5,7 +5,7 @@ import Typed from 'react-typed';
 export const StyledHeader = styled.header`
   display: flex;
   background-color: ${Theme.layout.primaryColor};
-  background: ${Theme.components.header.background} rgba(224, 31, 61, 0.85);
+  background: ${Theme.components.header.background} rgba(36, 41, 46, 0.85);
   background-size: cover;
   background-blend-mode: multiply;
   flex-direction: column;
@@ -38,7 +38,7 @@ export const Title = styled.h1`
   display: block;
   color: #fff;
   text-shadow: 0 5px 18px rgba(0, 0, 0, .07);
-  font-size: 3rem;
+  font-size: 3.25rem;
   text-transform: uppercase;
   font-style: italic;
 `;
@@ -79,7 +79,7 @@ export const StyledTopics = styled(Typed)`
 
 export const StyledCoverCredit = styled.a`
   align-self: flex-end;
-  margin-top: 4rem;
+  margin-top: 1rem;
   margin-right: 1rem;
   font-size: 10px;
   background-color: #ffffff;

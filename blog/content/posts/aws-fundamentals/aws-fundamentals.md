@@ -103,4 +103,4 @@ More information on AWS Compliance is available in the [Risk and Compliance whit
 
 ---
 
-*Cover by [Alex Motoc](https://unsplash.com/@alexmotoc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash*
+*Cover by [@alexmotoc](https://unsplash.com/@alexmotoc) on Unsplash*
