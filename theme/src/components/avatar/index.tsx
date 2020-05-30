@@ -19,9 +19,9 @@ const StyledAvatar = styled(Img)<AvatarProps>`
 const Avatar: FunctionComponent<AvatarProps> = ({alt, style}) => {
   const logo = useStaticQuery(graphql`
     query {
-      file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "fues-color"}) {
+      file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "fues-dark-512x512"}) {
         childImageSharp {
-          fixed(width: 70, height: 50) {
+          fixed(width: 70, height: 70) {
             ...GatsbyImageSharpFixed
           }
         }
