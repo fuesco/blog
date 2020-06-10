@@ -50,19 +50,19 @@ module.exports = {
     search: true,
     author: {
       name: `Naval Monga`,
-      description: `I'm <a href="https://navm.tech" rel="noopener" target="_blank">Naval</a>, founder of <b><em>FUES</em></b>.
+      description: `I'm <a href="https://navm.tech" rel="noopener" target="_blank">Naval</a>, founder of <b><em>FUES&trade;</em></b>.
         <br/>
         Like what you see?
         <br/>
         <a href="https://github.com/fuesco/fues-blog" rel="noopener" target="_blank">Star on GitHub!</a>`,
       social: {
         facebook: ``,
-        twitter: `https://twitter.com/`,
-        linkedin: `https://linkedin.com/`,
-        instagram: `https://instagram.com/fuesco/`,
-        youtube: `https://youtube.com/`,
+        twitter: ``,
+        linkedin: ``,
+        instagram: `https://instagram.com/fues.co/`,
+        youtube: ``,
         github: `https://github.com/fuesco/`,
-        twitch: ``,
+        twitch: `https://fues.us/`,
       }
     }
   },

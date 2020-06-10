@@ -1,5 +1,6 @@
 import styled, {css} from "styled-components";
 import {Container} from "../common";
+import Theme from "../../styles/theme";
 import {Link} from "gatsby";
 
 export const StyledFooter = styled.footer`
@@ -33,10 +34,10 @@ export const DesignBy = styled.p`
     font-style: italic;
     text-transform: uppercase;
     text-decoration: none;
-    color: #000;
-
+    color: ${Theme.layout.linkColor};
+    transition: all 0.6s ease-in-out; 
     &:hover {
-      text-decoration: underline;
+      font-size: 1rem;
     }
   }
 `;

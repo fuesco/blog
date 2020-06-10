@@ -1,17 +1,18 @@
 import {DefaultTheme} from "./default-theme";
 
 const getRandomUnsplashImgUrl = () => {
-  // const unsplashApi = 'https://source.unsplash.com/random'
-  const awhinUnsplash = 'https://images.unsplash.com/photo-1588556591443-bfa59cf8e0f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'
+  // const unsplashApi = 'https://source.unsplash.com/daily'
+  const bannerS3ImageUrl = 'https://jlassets.s3.amazonaws.com/jpg/aziz-acharki-unsplash.jpg'
+  // const awhinUnsplash = 'https://images.unsplash.com/photo-1588556591443-bfa59cf8e0f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'
   // image size - const size = '/'
-  return `${awhinUnsplash}`
+  return `${bannerS3ImageUrl}`
 }
 
 const Theme: DefaultTheme = {
   layout: {
     backgroundColor: `#fafafa`,
-    primaryColor: `#f3752b`,
-    linkColor: `#f3752b`,
+    primaryColor: `#f05542`,
+    linkColor: `#f05542`,
   },
   breakpoints: {
     xs: `425px`,

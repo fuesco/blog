@@ -50,13 +50,12 @@ const SidebarContent: FunctionComponent = () => {
       <Bio textAlign={`right`} avatarStyle={{float: `left`, marginRight: `1em`}}/>
 
       <ContributeButton
-        href={`https://www.patreon.com/jetlaglabs`}
+        href={`https://www.patreon.com/fues`}
         target={`_blank`}
         rel={`noopener`}
         aria-label={`contributing`}
       >
-        <PatreonIcon src="https://fuesco.github.io/assets/icons/patreon_mark_black.svg" alt="patreon symbol" />
-        Support us on Patreon
+        Become a Patron&nbsp;<PatreonIcon src="https://fuesco.github.io/assets/icons/patreon_mark_black.svg" alt="patreon symbol" />
       </ContributeButton>
 
     </StickySidebarContent>

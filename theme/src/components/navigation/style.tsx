@@ -64,6 +64,9 @@ export const NavLink = styled(Link)`
     opacity: 1;
     color: ${Theme.layout.linkColor};
   }
+  .active {
+    color: ${Theme.layout.linkColor};
+  }
 `;
 
 export const SearchContainer = styled.div`

@@ -10,7 +10,7 @@ interface LogoProps {
 }
 
 const LogoImage = styled(Img)`
-  width: 50px;
+  width: 36px;
   margin-right: 45px;
   @media (max-width: ${Theme.breakpoints.sm}) {
     margin-right: 15px;
@@ -19,7 +19,7 @@ const LogoImage = styled(Img)`
 
 const HomeLink = styled(Link)`
   align-self: center;
-  height: 50px;
+  height: 36px;
   padding-top: 0rem;
 `;
 
@@ -28,7 +28,7 @@ const Logo: FunctionComponent<LogoProps> = ({title}) => {
     query {
       file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "fues-512x512"}) {
         childImageSharp {
-          fixed(width: 50, height: 50) {
+          fixed(width: 36, height: 36) {
             ...GatsbyImageSharpFixed
           }
         }
