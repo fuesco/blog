@@ -77,7 +77,7 @@ module.exports = {
           background_color: `#a4cbb8`,
           theme_color: `#121212`,
           display: `minimal-ui`,
-          icon: `${__dirname}/content/assets/images/warp.dev.png`
+          icon: `${__dirname}/content/assets/images/fues-dark-512x512.png`
         }
       }
     }
