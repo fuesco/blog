@@ -1,11 +1,9 @@
 import {DefaultTheme} from "./default-theme";
 
 const getRandomUnsplashImgUrl = () => {
-  // const unsplashApi = 'https://source.unsplash.com/daily'
-  const bannerS3ImageUrl = 'https://jlassets.s3.amazonaws.com/jpg/aziz-acharki-unsplash.jpg'
-  // const awhinUnsplash = 'https://images.unsplash.com/photo-1588556591443-bfa59cf8e0f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'
-  // image size - const size = '/'
-  return `${bannerS3ImageUrl}`
+  const s3Url = 'https://fuess3.s3.amazonaws.com/'
+  const pixabayImg = 'yuri_b_pixabay.jpg'
+  return `${s3Url+pixabayImg}`
 }
 
 const Theme: DefaultTheme = {
@@ -18,7 +16,7 @@ const Theme: DefaultTheme = {
     xs: `425px`,
     sm: `576px`,
     md: `768px`,
-    lg: `992px`,
+    lg: `892px`,
     xl: `1000px`,
   },
   fonts: {

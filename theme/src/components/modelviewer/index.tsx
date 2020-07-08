@@ -41,7 +41,7 @@ const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
           interaction-policy="allow-when-focused"
           interaction-prompt="auto"
           interaction-prompt-style="wiggle"
-          style={{height: '200px', width: '30vw', backgroundColor: 'unset'}}
+          style={{height: '150px', width: '50vw', backgroundColor: 'unset'}}
           alt="A low-poly 3D model of the earth"
           auto-rotate
         />

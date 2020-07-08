@@ -5,7 +5,7 @@ import Typed from 'react-typed';
 export const StyledHeader = styled.header`
   display: flex;
   background-color: ${Theme.layout.primaryColor};
-  background: ${Theme.components.header.background} no-repeat top right rgba(36, 41, 46, 0.75);
+  background: ${Theme.components.header.background} no-repeat top right rgba(36, 41, 46, 0.95);
   background-size: cover;
   background-blend-mode: multiply;
   flex-direction: column;
@@ -24,7 +24,7 @@ export const TitleWrapper = styled.div`
   height: 100%;
   flex-direction: column;
   overflow: hidden;
-  margin-top: -25px;
+  margin-top: -10px;
   @media (max-width: ${Theme.breakpoints.sm}) {
     margin-top: -25px;
     font-size: .75em;
@@ -43,21 +43,22 @@ export const Title = styled.h1`
   font-style: italic;
 `;
 
-export const SubTitle = styled.h6`
-  font-size: 8px;
+export const SupportedBy = styled.h6`
+  font-size: 10px;
   color: #fafafa;
   font-weight: 500;
   opacity: .85;
   text-transform: uppercase;
   line-height: 1;
   letter-spacing: 2px;
+  color: ${Theme.layout.primaryColor};
 `;
 
 export const Description = styled.h2`
   color: #fafafa;
   margin: 0;
   opacity: .85;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;

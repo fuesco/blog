@@ -8,8 +8,12 @@
   featured: true
 - name: Go
   color: "#007acc"
-  icon: ./assets/images/golang.svg
-  featured: false
+  icon: ./assets/images/gopher.svg
+  featured: true
+- name: Flutter
+  color: #f0db4f
+  icon: ./assets/images/flutter.svg
+  featured: true
 - name: Amazon Web Services
   color: "#E57A2C"
   icon: ./assets/images/aws.svg
@@ -22,10 +26,6 @@
   color: #f0db4f
   icon: ./assets/images/javascript.svg
   featured: false
-- name: Flutter
-  color: #f0db4f
-  icon: ./assets/images/flutter.svg
-  featured: true
 - name: Theme
   color: #00ffee
   icon: ./assets/images/fues.svg

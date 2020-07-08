@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Fues Blog`,
     siteUrl: `https://blog.fues.us/`,
-    description: `The open source guide to %TOPICS%`,
+    description: `open source guide to %TOPICS%`,
     topics: [
       'Programming',
       'Design',
@@ -29,7 +29,7 @@ module.exports = {
         path: '/about'
       },
       {
-        name: 'Topics',
+        name: 'Tags',
         path: '/tags'
       },
     ],
@@ -50,7 +50,7 @@ module.exports = {
     search: true,
     author: {
       name: `Naval Monga`,
-      description: `I'm <a href="https://navm.tech" rel="noopener" target="_blank">Naval</a>, founder of <b><em>FUES&trade;</em></b>.
+      description: `I'm <a href="https://navm.tech" rel="noopener" target="_blank">Naval</a>, founder of <b><em>FUES</em></b>.
         <br/>
         Like what you see?
         <br/>
