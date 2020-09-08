@@ -2,15 +2,15 @@ import {DefaultTheme} from "./default-theme";
 
 const getRandomUnsplashImgUrl = () => {
   const s3Url = 'https://fuess3.s3.amazonaws.com/'
-  const pixabayImg = 'yuri_b_pixabay.jpg'
+  const pixabayImg = 'craig-ren.jpg'
   return `${s3Url+pixabayImg}`
 }
 
 const Theme: DefaultTheme = {
   layout: {
     backgroundColor: `#fafafa`,
-    primaryColor: `#f05542`,
-    linkColor: `#f05542`,
+    primaryColor: `#2bb673`,
+    linkColor: `#2bb673`,
   },
   breakpoints: {
     xs: `425px`,
@@ -25,7 +25,7 @@ const Theme: DefaultTheme = {
   },
   components: {
     container: {
-      width: `1000px`,
+      width: `1200px`,
     },
     header: {
       height: `75vh`,

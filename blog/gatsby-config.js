@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Fues Blog`,
+    title: `Blog`,
     siteUrl: `https://blog.fues.us/`,
     description: `open source guide to %TOPICS%`,
     topics: [
@@ -25,12 +25,16 @@ module.exports = {
         path: '/'
       },
       {
-        name: 'About',
-        path: '/about'
+        name: 'Bookmarks',
+        path: '/bookmarks'
       },
       {
         name: 'Tags',
         path: '/tags'
+      },
+      {
+        name: 'About',
+        path: '/about'
       },
     ],
     footerMenu: [
@@ -50,34 +54,35 @@ module.exports = {
     search: true,
     author: {
       name: `Naval Monga`,
-      description: `I'm <a href="https://navm.tech" rel="noopener" target="_blank">Naval</a>, founder of <b><em>FUES</em></b>.
+      description: `Welcome to <b><em>FUES&nbsp;US</em></b>.
+        <br/>
         <br/>
         Like what you see?
         <br/>
-        <a href="https://github.com/fuesco/fues-blog" rel="noopener" target="_blank">Star on GitHub!</a>`,
+        <a href="https://github.com/fuesco/blog" rel="noopener" target="_blank">See the source!</a>`,
       social: {
         facebook: ``,
-        twitter: ``,
+        twitter: `https://github.com/fuesco/`,
         linkedin: ``,
         instagram: `https://instagram.com/fues.co/`,
-        youtube: ``,
+        youtube: `https://github.com/fuesco/`,
         github: `https://github.com/fuesco/`,
-        twitch: `https://fues.us/`,
+        twitch: ``,
       }
     }
   },
   plugins: [
     {
-      resolve: `@nehalist/gatsby-theme-nehalem`,
+      resolve: `@fuesco/gatsby-blog-theme`,
       options: {
         manifest: {
-          name: `warp - A Gatsby theme`,
-          short_name: `warp`,
+          name: `Fues Blog - Gatsby Theme`,
+          short_name: `blog`,
           start_url: `/`,
           background_color: `#a4cbb8`,
           theme_color: `#121212`,
           display: `minimal-ui`,
-          icon: `${__dirname}/content/assets/images/fues-dark-512x512.png`
+          icon: `${__dirname}/content/assets/images/fues-color.png`
         }
       }
     }

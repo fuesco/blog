@@ -1,13 +1,19 @@
 ---
 title: Credits
 path: "/credits"
-excerpt: Technologies and resources that power this website and allow Fues to grow.
+excerpt: Technologies and resources that power this website made by Fues.
 ---
 
-## Gatsby Theme and Tutorials
+## Site Credits
 
-[nehalist.io](https://nehalist.io/)
+### Images
 
-## Web Hosting
+- [Unsplash](https://unsplash.com/)
 
-[Netlify](https://netlify.com)
+### Theme
+
+- [nehalist.io](https://nehalist.io/)
+
+### Stack
+- [Gatsby](https://www.gatsbyjs.com/)
+- [Netlify](https://netlify.com)

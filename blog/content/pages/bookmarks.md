@@ -1,12 +1,17 @@
 ---
-title: Bookmarks
+title: Fues Bookmarks
 path: "/bookmarks"
-excerpt: Important and helpful bookmarks to help development.
+excerpt: Important and helpful list of bookmarks around app design, software development, and open source technologies made by Fues.
 ---
 
-## Important Links
+## Important Bookmarks
 
-* <a href="/knowledge" alt="fues knowledge base">Knowledge Base</a> - Fues
-* <a href="/credits" alt="fues credits">Credits</a> - Fues
-* [Google Fonts](https://fonts.google.com/) - Custom Fonts
+### Internal
+* <a href="/knowledge" alt="fues knowledge base">Fues Knowledge Base</a>
+* <a href="/credits" alt="fues blog credits">Site Credits</a>
+
+### Custom Web Fonts
+* [Google Fonts](https://fonts.google.com/)
+
+### Other
 * [Five Ideas A Day](https://www.fiveideasaday.com/) - Idea Inspiration

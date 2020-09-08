@@ -10,8 +10,6 @@ interface LogoProps {
 }
 
 const LogoImage = styled(Img)`
-  width: 55px;
-  margin-right: 45px;
   @media (max-width: ${Theme.breakpoints.sm}) {
     margin-right: 10px;
   }
@@ -19,16 +17,16 @@ const LogoImage = styled(Img)`
 
 const HomeLink = styled(Link)`
   align-self: center;
-  height: 55px;
+  height: 40px;
   padding-top: 0rem;
 `;
 
 const Logo: FunctionComponent<LogoProps> = ({title}) => {
   const logo = useStaticQuery(graphql`
     query {
-      file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "fues-512x512"}) {
+      file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "fues-color"}) {
         childImageSharp {
-          fixed(width: 55, height: 55) {
+          fixed(width: 40, height: 40) {
             ...GatsbyImageSharpFixed
           }
         }

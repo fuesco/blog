@@ -58,14 +58,17 @@ export const NavMenuItem = styled.li`
 export const NavLink = styled(Link)`
   color: #fff;
   opacity: .8;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
   padding: 16px;
   transition: opacity .5s;
   &:hover {
     opacity: 1;
-    color: ${Theme.layout.linkColor};
+    color: ${Theme.layout.primaryColor};
   }
-  .active {
-    color: ${Theme.layout.linkColor};
+  &.active {
+    color: ${Theme.layout.primaryColor};
   }
 `;
 

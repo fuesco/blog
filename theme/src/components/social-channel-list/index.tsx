@@ -20,11 +20,11 @@ interface SocialChannelListProps {
 const createSocialIcon = (channel: keyof SocialChannels) => {
   switch (channel) {
     case "twitter":
-      return <FaTwitter/>;
+      return <FaTwitter style={{ fill: '#1da1f2' }}/>;
     case "facebook":
       return <FaFacebook/>;
     case "github":
-      return <FaGithub/>;
+      return <FaGithub style={{ fill: '#24292e' }}/>;
     case "instagram":
       return <FaInstagram/>;
     case "linkedin":
@@ -32,7 +32,7 @@ const createSocialIcon = (channel: keyof SocialChannels) => {
     case "twitch":
       return <FaTwitch/>;
     case "youtube":
-      return <FaYoutube/>;
+      return <FaYoutube style={{ fill: '#ff0000' }}/>;
   }
 
   return <FaQuestionCircle/>;
@@ -47,7 +47,7 @@ const StyledSocialChannels = styled.ul`
 const StyledSocialChannel = styled.li`
   display: inline-block;
   margin: 0 10px;
-  font-size: 1.6em;
+  font-size: 1.2em;
   opacity: .7;
   transition: opacity .5s;
 
