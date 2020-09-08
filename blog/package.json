@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
+    "preinstall": "npm link ../theme",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
