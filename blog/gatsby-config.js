@@ -73,7 +73,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `@fuesco/gatsby-blog-theme`,
+      resolve: '@nehalist/gatsby-theme-nehalem',
       options: {
         manifest: {
           name: `Fues Blog - Gatsby Theme`,
