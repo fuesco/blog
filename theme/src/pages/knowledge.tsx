@@ -5,7 +5,7 @@ import {Page} from "../utils/models";
 import Subheader from "../components/subheader";
 import SEO from "../components/seo";
 import PageGrid from "../components/page-grid";
-import ReadingProgress from "../components/reading-progress";
+
 interface KnowledgePageProps {
   data: {
     allPages: {

@@ -13,7 +13,7 @@ export const StyledHeader = styled.header`
   border-bottom: 2px #ededed solid;
 
   @media (max-width: ${Theme.breakpoints.sm}) {
-    height: 80vh;
+    height: 50vh;
   }
 `;
 
@@ -48,7 +48,7 @@ export const ColorTitle = styled.span`
 `;
 
 export const SupportedBy = styled.h6`
-  font-size: 10px;
+  font-size: 14px;
   color: #fafafa;
   font-weight: 500;
   opacity: .85;
@@ -62,7 +62,7 @@ export const Description = styled.h2`
   color: #fafafa;
   margin: 0;
   opacity: .85;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;

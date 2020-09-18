@@ -25,10 +25,10 @@ const Theme: DefaultTheme = {
   },
   components: {
     container: {
-      width: `1200px`,
+      width: `1400px`,
     },
     header: {
-      height: `75vh`,
+      height: `55vh`,
       background: `url('${getRandomUnsplashImgUrl()}')`,
     },
   },

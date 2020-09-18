@@ -56,7 +56,7 @@ const TagList: FunctionComponent = () => {
         })}
       </StyledTagList>
       <TagArchiveLinkWrapper>
-        <TagArchiveLink to={`/tags`}>More tags</TagArchiveLink>
+        <TagArchiveLink to={`/tags`}>MOAR</TagArchiveLink>
       </TagArchiveLinkWrapper>
     </TagContainer>
   );

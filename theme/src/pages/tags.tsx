@@ -9,6 +9,7 @@ import {Grid} from "../components/common";
 import Img from "gatsby-image";
 import styled from "styled-components";
 import SEO from "../components/seo";
+import Theme from "../styles/theme";
 
 interface TagsPageProps {
   data: {
@@ -37,7 +38,7 @@ const TagsPage: FunctionComponent<TagsPageProps> = ({data, location}) => {
         title={`Tags`}
         type={`Series`}
       />
-      <Subheader title={`Tags`} subtitle={`${tags.length} tags`}/>
+      <Subheader title={`Tags`} subtitle={`${tags.length} tags`} backgroundColor={Theme.layout.primaryColor}/>
       <Grid columns={6}>
         {tags.map((tag, index) => (
           <Card

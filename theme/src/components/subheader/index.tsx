@@ -11,15 +11,16 @@ interface SubheaderProps {
 
 const StyledSubheader = styled.div<Pick<SubheaderProps, 'backgroundColor' | 'textColor'>>`
   background-color: ${props => props.backgroundColor ? props.backgroundColor : '#000'};
+  background: ${props => props.backgroundColor ? `linear-gradient(260deg, ${props.backgroundColor} 30%, #20232A 100%)` : 'linear-gradient(260deg, rgba(43,182,112,1) 30%, #20232A 100%)'};
   color: ${props => props.textColor ? props.textColor : '#fff'};
   display: flex;
   align-items: center;
-  height: 90px;
+  height: 144px;
   margin-bottom: 30px;
 `;
 
 const SubheaderTitle = styled.h1`
-  font-size: 1.2em;
+  font-size: 1.55rem;
   font-weight: bold;
   color: #fff;
   margin: 0;

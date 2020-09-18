@@ -29,7 +29,7 @@ const Footer: FunctionComponent<FooterProps> = ({menu, owner}) => (
           <strong>{owner}</strong>&nbsp;&copy; {new Date().getFullYear()}
         </Copyright>
         <DesignBy>
-          <a href={`https://fues.us/`}>fues</a>
+          <a href={`https://fues.us/`}><span>fues</span>&nbsp;us</a>
         </DesignBy>
       </div>
     </FooterContainer>

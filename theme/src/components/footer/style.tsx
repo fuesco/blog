@@ -25,9 +25,8 @@ export const Copyright = styled.p`
 `;
 
 export const DesignBy = styled.p`
-  margin: 0;
-  opacity: .8;
-  font-size: .8em;
+  margin: 1rem 0;
+  font-size: .95rem;
 
   a {
     font-weight: 700;
@@ -35,9 +34,13 @@ export const DesignBy = styled.p`
     text-transform: uppercase;
     text-decoration: none;
     color: ${Theme.layout.linkColor};
+    opacity: 0.9;
     transition: all 0.6s ease-in-out; 
     &:hover {
-      font-size: 1rem;
+      opacity: 1;
+    }
+    span {
+      color: #000;
     }
   }
 `;

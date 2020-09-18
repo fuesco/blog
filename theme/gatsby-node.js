@@ -124,7 +124,7 @@ exports.createPages = async ({ graphql, actions, reporter }, themeOptions) => {
   // Create a route for every single page (located in `content/pages`)
   knowledgebase.forEach(page => {
     actions.createPage({
-      path: page.frontmatter.path,
+      path: `${page.frontmatter.path}`,
       component: require.resolve(`./src/templates/page.tsx`),
       context: {
         page

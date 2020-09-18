@@ -1,18 +1,16 @@
 ---
 title: HTML
-path: "knowledge/html"
+path: "/knowledge/html"
 excerpt: What is HTML?
 ---
 
 # HTML
 
-```
-H(yper) T(ext) M(arkup) L(anguage)
-```
+## H(yper) T(ext) M(arkup) L(anguage)
 
 HTML is primarily used to give websites structure with elements like text, links, images, and other fundamental components. - [codeacademy](https://www.codecademy.com/)
 
-## HTML Boilerplate
+## HTML5 Boilerplate
 
 ```html
 <!DOCTYPE html>

@@ -17,7 +17,7 @@ const LogoImage = styled(Img)`
 
 const HomeLink = styled(Link)`
   align-self: center;
-  height: 40px;
+  height: 45px;
   padding-top: 0rem;
 `;
 
@@ -26,7 +26,7 @@ const Logo: FunctionComponent<LogoProps> = ({title}) => {
     query {
       file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "fues-color"}) {
         childImageSharp {
-          fixed(width: 40, height: 40) {
+          fixed(width: 45, height: 45) {
             ...GatsbyImageSharpFixed
           }
         }

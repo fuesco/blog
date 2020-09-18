@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Blog`,
     siteUrl: `https://blog.fues.us/`,
-    description: `open source guide to %TOPICS%`,
+    description: `an open-source guide to %TOPICS%`,
     topics: [
       'Programming',
       'Design',
@@ -21,8 +21,8 @@ module.exports = {
     ],
     menu: [
       {
-        name: 'Home',
-        path: '/'
+        name: 'About',
+        path: '/about'
       },
       {
         name: 'Bookmarks',
@@ -31,10 +31,6 @@ module.exports = {
       {
         name: 'Tags',
         path: '/tags'
-      },
-      {
-        name: 'About',
-        path: '/about'
       },
     ],
     footerMenu: [
@@ -47,6 +43,10 @@ module.exports = {
         path: '/bookmarks'
       },
       {
+        name: 'Tags',
+        path: '/tags'
+      },
+      {
         name: 'RSS',
         path: '/rss.xml'
       }
@@ -54,7 +54,7 @@ module.exports = {
     search: true,
     author: {
       name: `Naval Monga`,
-      description: `Welcome to <b><em>FUES&nbsp;US</em></b>.
+      description: `Welcome to the <b><em>FUES&nbsp;US&nbsp;BLOG</em></b>.
         <br/>
         <br/>
         Like what you see?

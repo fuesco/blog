@@ -59,8 +59,7 @@ export const NavLink = styled(Link)`
   color: #fff;
   opacity: .8;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   padding: 16px;
   transition: opacity .5s;
   &:hover {

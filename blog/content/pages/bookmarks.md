@@ -7,11 +7,18 @@ excerpt: Important and helpful list of bookmarks around app design, software dev
 ## Important Bookmarks
 
 ### Internal
-* <a href="/knowledge" alt="fues knowledge base">Fues Knowledge Base</a>
+* <a href="/knowledge" alt="fues knowledge base">Knowledge Base</a>
 * <a href="/credits" alt="fues blog credits">Site Credits</a>
 
-### Custom Web Fonts
-* [Google Fonts](https://fonts.google.com/)
+### Front-End
+* [Google Fonts](https://fonts.google.com/) - Custom Web Fonts
+* [Material-UI](https://material-ui.com/) - React Material Design Framework
+* [Sass](https://sass-lang.com/) - CSS Extension Language
+* [model-viewer](https://modelviewer.dev/) - React GLB Loader
 
-### Other
-* [Five Ideas A Day](https://www.fiveideasaday.com/) - Idea Inspiration
+
+### Back-End
+
+
+### DevOps
+* [Terraform](https://www.terraform.io/docs/index.html) - Infrastructure Management
