@@ -68,6 +68,7 @@ export const NavLink = styled(Link)`
   }
   &.active {
     color: ${Theme.layout.primaryColor};
+    text-decoration: underline;
   }
 `;
 

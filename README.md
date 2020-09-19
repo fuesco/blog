@@ -2,6 +2,8 @@
 
 ### blog
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/86081ffb-d4fe-4d60-9069-31aab492e247/deploy-status)](https://app.netlify.com/sites/blog-fues/deploys)
+
 ---
 
 Based on theme originally developed by Kevin at [nehalist.io](https://nehalist.io/about)
