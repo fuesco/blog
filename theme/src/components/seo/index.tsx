@@ -169,6 +169,7 @@ const SEO: FunctionComponent<SEOProps> = ({
       `}</script>
       <script defer type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
       <script defer src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+      <script defer src="https://unpkg.com/focus-visible@5.1.0/dist/focus-visible.js"></script>
     </Helmet>
   );
 };

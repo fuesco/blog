@@ -4,4 +4,7 @@ export const StyledModelViewer = styled.div`
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  * {
+    outline: none;
+  }
 `;

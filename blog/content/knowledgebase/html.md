@@ -1,10 +1,13 @@
 ---
-title: HTML
+title: What is HTML?
 path: "/knowledge/html"
-excerpt: What is HTML?
+excerpt: Learn to build web pages and understand the basic elements of hypertext markup language to define structure of your content.
 ---
 
-# HTML
+<img alt="html5 logo" src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" width="344px" />
+
+> Content Credits: [HTML basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+
 
 ## H(yper) T(ext) M(arkup) L(anguage)
 

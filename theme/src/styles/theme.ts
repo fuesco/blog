@@ -1,9 +1,9 @@
 import {DefaultTheme} from "./default-theme";
 
 const getRandomUnsplashImgUrl = () => {
-  const s3Url = 'https://fuess3.s3.amazonaws.com/'
-  const pixabayImg = 'craig-ren.jpg'
-  return `${s3Url+pixabayImg}`
+  const unsplashURL = 'https://source.unsplash.com/'
+  const fixedPhoto = 'daily/?gradient'
+  return `${unsplashURL + fixedPhoto}`
 }
 
 const Theme: DefaultTheme = {
@@ -28,7 +28,7 @@ const Theme: DefaultTheme = {
       width: `1400px`,
     },
     header: {
-      height: `55vh`,
+      height: `50rem`,
       background: `url('${getRandomUnsplashImgUrl()}')`,
     },
   },

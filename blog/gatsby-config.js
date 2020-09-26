@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Blog`,
     siteUrl: `https://blog.fues.us/`,
-    description: `an open-source guide to %TOPICS%`,
+    description: `the open-source guide to %TOPICS%`,
     topics: [
       'Programming',
       'Design',
@@ -54,12 +54,11 @@ module.exports = {
     search: true,
     author: {
       name: `Naval Monga`,
-      description: `Welcome to the <b><em>FUES&nbsp;US&nbsp;BLOG</em></b>.
-        <br/>
+      description: `Welcome to <b><em>FUES&nbsp;US&nbsp;BLOG</em></b>.
         <br/>
         Like what you see?
         <br/>
-        <a href="https://github.com/fuesco/blog" rel="noopener" target="_blank">See the source!</a>`,
+        <a href="https://github.com/fuesco/blog" rel="noopener" target="_blank">View the source!</a>`,
       social: {
         facebook: ``,
         twitter: `https://github.com/fuesco/`,

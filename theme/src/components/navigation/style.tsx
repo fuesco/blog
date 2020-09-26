@@ -57,9 +57,11 @@ export const NavMenuItem = styled.li`
 
 export const NavLink = styled(Link)`
   color: #fff;
-  opacity: .8;
+  opacity: .9;
   text-transform: uppercase;
-  font-size: 0.88rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.05rem;
+  font-style: italic;
   padding: 16px;
   transition: opacity .5s;
   &:hover {
@@ -67,8 +69,8 @@ export const NavLink = styled(Link)`
     color: ${Theme.layout.primaryColor};
   }
   &.active {
+    opacity: 1;
     color: ${Theme.layout.primaryColor};
-    text-decoration: underline;
   }
 `;
 

@@ -1,4 +1,8 @@
-<img src="./fues-color.svg" width="96px" alt="fues logo" style="display: block; margin: 0 auto;'">
+<p align="center">
+  <a href="https://blog.fues.us/">
+    <img src="./fues-color.svg" height="144px" alt="fues logo">
+  </a>
+</p>
 
 ### blog
 
@@ -6,7 +10,7 @@
 
 ---
 
-Based on theme originally developed by Kevin at [nehalist.io](https://nehalist.io/about)
+Design based on theme originally developed by Kevin at [nehalist.io](https://nehalist.io/about)
 
 ---
 
@@ -47,9 +51,6 @@ In case you want to work with this mono repo (for local development, pull reques
 
 ### Credits
 
-Fues blog is primary maintained by [navalmonga](https://navm.tech).
+Project maintained by [navalmonga](https://navm.tech).
 
 Thanks to [nehalist](https://github.com/nehalist) for the awesome Gatsby theme.
-
-Site icon credits (TODO):
-- AWS SVG (Wikicommons)

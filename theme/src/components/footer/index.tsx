@@ -26,7 +26,7 @@ const Footer: FunctionComponent<FooterProps> = ({menu, owner}) => (
       </StyledNav>
       <div>
         <Copyright>
-          <strong>{owner}</strong>&nbsp;&copy; {new Date().getFullYear()}
+          <strong>Fues {owner}</strong>&nbsp;&copy; {new Date().getFullYear()}, All rights reserved.
         </Copyright>
         <DesignBy>
           <a href={`https://fues.us/`}><span>fues</span>&nbsp;us</a>
