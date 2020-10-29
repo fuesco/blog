@@ -1,16 +1,19 @@
 <p align="center">
-  <a href="https://blog.fues.us/">
-    <img src="./fues-color.svg" height="144px" alt="fues logo">
+  <a href="https://blog.fues.us">
+    <img src="./fues-reg-light.svg" height="96px" alt="fues logo">
   </a>
 </p>
-
-### blog
+<p align="center">
+  <b><em>FUES&trade; BLOG</em></b>
+</p>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/86081ffb-d4fe-4d60-9069-31aab492e247/deploy-status)](https://app.netlify.com/sites/blog-fues/deploys)
 
----
 
-Design based on theme originally developed by Kevin at [nehalist.io](https://nehalist.io/about)
+App design, reviews, and software/hardware tutorials.
+
+
+GatsbyJS design based on theme originally developed by Kevin at [nehalist.io](https://nehalist.io/about)
 
 ---
 
@@ -51,6 +54,6 @@ In case you want to work with this mono repo (for local development, pull reques
 
 ### Credits
 
-Project maintained by [navalmonga](https://navm.tech).
+Project primarily maintained by [navalmonga](https://navalm.com).
 
 Thanks to [nehalist](https://github.com/nehalist) for the awesome Gatsby theme.

@@ -1,17 +1,13 @@
 ---
-title: About Fues Blog
+title: About
 path: "/about"
 excerpt: Fues Blog discusses topics on software engineering including programming, python, go, amazon web services, design, react, flutter, etc.
 ---
 
-## *FUES US BLOG*
+## *FUES™ BLOG*
 > &copy; 2020, All rights reserved.
 
 ## Topics Covered:
-
-### Python
-* Flask
-* Django 
 
 ### NodeJS
 * React

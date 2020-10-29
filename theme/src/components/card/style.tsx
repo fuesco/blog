@@ -34,14 +34,29 @@ export const FeaturedImage = styled(Img)<Pick<CardProps, 'halfImage'>>`
   background-size: cover;
   max-width: 100%;
   border-top-left-radius: 3px;
-
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(160deg, ${Theme.layout.primaryColor},${Theme.layout.primaryColor});
+    opacity: 0.95;
+    transition: opacity 0.2s ease-out;
+  }
+  &:hover{
+    &::after {
+      opacity: 0.1;
+    }
+  }
   ${props => props.halfImage ? `
     width: 50%;
     float: left;
     margin-right: 30px;
     height: 320px;
     border-bottom-left-radius: 3px;
-
+    
     @media (max-width: ${Theme.breakpoints.sm}) {
       width: 100%;
       float: none;

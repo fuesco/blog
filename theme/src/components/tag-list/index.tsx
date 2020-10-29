@@ -21,11 +21,6 @@ const TagList: FunctionComponent = () => {
         nodes {
           name
           icon {
-            childImageSharp {
-              fixed(height: 55) {
-                ...GatsbyImageSharpFixed
-              }
-            }
             extension
             publicURL
           }
@@ -56,7 +51,7 @@ const TagList: FunctionComponent = () => {
         })}
       </StyledTagList>
       <TagArchiveLinkWrapper>
-        <TagArchiveLink to={`/tags`}>MOAR TAGS</TagArchiveLink>
+        <TagArchiveLink to={`/tags`}>all tags</TagArchiveLink>
       </TagArchiveLinkWrapper>
     </TagContainer>
   );

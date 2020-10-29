@@ -6,7 +6,7 @@ import {Link} from "gatsby";
 export const NavContainer = styled.div<{ dark?: boolean}>`
   z-index: 1000;
   ${props => props.dark && `
-    background-color: #20232a;
+    background-color: #222222;
     position: sticky;
     top: 0;
     box-shadow: 0 0 3px rgba(0,0,0,.03), 0 3px 46px rgba(0,0,0,.07);
@@ -56,21 +56,23 @@ export const NavMenuItem = styled.li`
 `;
 
 export const NavLink = styled(Link)`
-  color: #fff;
+  color: #d8d8d8;
   opacity: .9;
   text-transform: uppercase;
-  font-size: 0.95rem;
-  letter-spacing: 0.05rem;
+  font-size: 16px;
+  font-weight: 500;
   font-style: italic;
   padding: 16px;
-  transition: opacity .5s;
+  transition: all 0.2s ease-out;
   &:hover {
     opacity: 1;
-    color: ${Theme.layout.primaryColor};
+    color: ${Theme.layout.backgroundColor};
   }
   &.active {
     opacity: 1;
-    color: ${Theme.layout.primaryColor};
+    color: ${Theme.layout.backgroundColor};
+    font-weight: 700;
+    font-style: normal;
   }
 `;
 

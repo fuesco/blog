@@ -8,14 +8,12 @@ module.exports = {
   siteMetadata: {
     title: `Blog`,
     siteUrl: `https://blog.fues.us/`,
-    description: `the open-source guide to %TOPICS%`,
+    description: `an open-source guide to %TOPICS%`,
     topics: [
-      'Programming',
       'Design',
       'Python',
       'AWS',
       'React',
-      'Flutter',
       'JAMStack',
       'Go',
     ],
@@ -54,7 +52,11 @@ module.exports = {
     search: true,
     author: {
       name: `Naval Monga`,
-      description: `Welcome to <b><em>FUES&nbsp;US&nbsp;BLOG</em></b>.
+      description: `
+        <b><em>FUES&trade;&nbsp;BLOG</em></b>
+        <br/>
+        <b>&copy;&nbsp;2020.</b>
+        <br/>
         <br/>
         Like what you see?
         <br/>
@@ -81,7 +83,7 @@ module.exports = {
           background_color: `#a4cbb8`,
           theme_color: `#121212`,
           display: `minimal-ui`,
-          icon: `${__dirname}/content/assets/images/fues-color.png`
+          icon: `${__dirname}/content/assets/images/android-chrome-512x512.png`
         }
       }
     }

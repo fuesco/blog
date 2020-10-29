@@ -1,19 +1,21 @@
 ---
-title: What is HTML?
+title: HTML5
 path: "/knowledge/html"
 excerpt: Learn to build web pages and understand the basic elements of hypertext markup language to define structure of your content.
 ---
 
-<img alt="html5 logo" src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" width="344px" />
+<p align="center">
+  <img alt="html5 logo" src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" height="144px" />
+</p>
 
 > Content Credits: [HTML basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
 
 
-## H(yper) T(ext) M(arkup) L(anguage)
+## HyperText Markup Language (HMTL)
 
-HTML is primarily used to give websites structure with elements like text, links, images, and other fundamental components. - [codeacademy](https://www.codecademy.com/)
+HTML is primarily used to give websites structure with elements like text, links, images, and other fundamental components. - [Codeacademy](https://www.codecademy.com/)
 
-## HTML5 Boilerplate
+## Fues™ HTML5 Boilerplate
 
 ```html
 <!DOCTYPE html>

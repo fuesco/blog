@@ -1,15 +1,16 @@
 import React, {CSSProperties, FunctionComponent} from "react";
 import styled from "styled-components";
 import {graphql, useStaticQuery} from "gatsby";
-import Img from "gatsby-image";
+// import Img from "gatsby-image";
 
 interface AvatarProps {
   alt: string;
   style?: CSSProperties;
 }
 
-const StyledAvatar = styled(Img)<AvatarProps>`
+const StyledAvatar = styled.img<AvatarProps>`
   border-radius: 0%;
+  height: 64px;
 `;
 
 /**
@@ -18,17 +19,14 @@ const StyledAvatar = styled(Img)<AvatarProps>`
 const Avatar: FunctionComponent<AvatarProps> = ({alt, style}) => {
   const logo = useStaticQuery(graphql`
     query {
-      file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "fues-color"}) {
-        childImageSharp {
-          fixed(width: 60, height: 60) {
-            ...GatsbyImageSharpFixed
-          }
-        }
+      file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "fues-reg-light"}) {
+        extension
+        publicURL
       }
     }
   `);
 
-  return <StyledAvatar fixed={logo.file.childImageSharp.fixed} alt={alt} style={style} />;
+  return <StyledAvatar src={logo.file.publicURL} alt={alt} style={style} />;
 };
 
 export default Avatar;

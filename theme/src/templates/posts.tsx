@@ -66,6 +66,8 @@ const ArchiveLinkWrapper = styled.div`
 
 const ArchiveLink = styled(Link)`
   font-size: .8em;
+  font-weight: 700;
+  text-transform: uppercase;
   padding: 10px;
   border-radius: .3em;
   transition: background-color .5s;
@@ -103,7 +105,7 @@ const PostsPage: FunctionComponent<PostsPageProps> = ({ pathContext, location })
             />
           ))}
           <ArchiveLinkWrapper>
-            <ArchiveLink to={`/archive`}>More posts</ArchiveLink>
+            <ArchiveLink to={`/archive`}>all posts</ArchiveLink>
           </ArchiveLinkWrapper>
         </PostsContainer>
         <Sidebar>

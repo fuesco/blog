@@ -39,7 +39,7 @@ const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
           reveal-when-loaded
           interaction-policy="allow-when-focused"
           interaction-prompt="none"
-          style={{height: '144px', width: '50vw', backgroundColor: 'unset', '--focus-visible': 'none'}}
+          style={{height: '15vw', width: '50vw', backgroundColor: 'unset', '--focus-visible': 'none'}}
           alt="A low-poly 3D model of the earth"
           exposure={0.2}
           auto-rotate

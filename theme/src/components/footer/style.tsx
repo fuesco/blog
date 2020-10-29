@@ -26,7 +26,7 @@ export const Copyright = styled.p`
 
 export const DesignBy = styled.p`
   margin: 1rem 0;
-  font-size: .95rem;
+  font-size: 14px;
 
   a {
     font-weight: 700;

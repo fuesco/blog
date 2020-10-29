@@ -12,8 +12,8 @@ const StickySidebarContent = styled.div`
 
 const ContributeButton = styled.a`
   background-color: #fff;
-  color: #000;
-  font-weight: bold;
+  color: #222222;
+  font-weight: 700;
   box-shadow: 0 1px 1px #e6e6e6, 0 2px 4px #e6e6e6;
   display: flex;
   justify-content: space-between;
@@ -29,6 +29,7 @@ const ContributeButton = styled.a`
   &:hover {
     transform: translate3d(0, -5px, 0);
     box-shadow: 0 1px 1px #ccc, 0 4px 4px #ccc;
+    color: #ff0000;
   }
 `;
 
@@ -55,7 +56,7 @@ const SidebarContent: FunctionComponent = () => {
         rel={`noopener`}
         aria-label={`contributing`}
       >
-        <PatreonIcon src="https://fuesco.github.io/assets/icons/patreon_mark_black.svg" alt="patreon symbol" />&nbsp;Patreon
+        <PatreonIcon src="https://cdn.fues.us/icons/patreon_mark_black.svg" alt="patreon symbol" />&nbsp;Patreon
       </ContributeButton>
 
     </StickySidebarContent>

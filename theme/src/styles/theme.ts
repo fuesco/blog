@@ -2,15 +2,15 @@ import {DefaultTheme} from "./default-theme";
 
 const getRandomUnsplashImgUrl = () => {
   const unsplashURL = 'https://source.unsplash.com/'
-  const fixedPhoto = 'daily/?gradient'
-  return `${unsplashURL + fixedPhoto}`
+  const category = 'daily/?white'
+  return `${unsplashURL + category}`
 }
 
 const Theme: DefaultTheme = {
   layout: {
     backgroundColor: `#fafafa`,
-    primaryColor: `#2bb673`,
-    linkColor: `#2bb673`,
+    primaryColor: `#222222`,
+    linkColor: `#222222`,
   },
   breakpoints: {
     xs: `425px`,

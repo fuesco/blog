@@ -5,7 +5,7 @@ import Typed from 'react-typed';
 export const StyledHeader = styled.header`
   display: flex;
   background-color: ${Theme.layout.primaryColor};
-  background: ${Theme.components.header.background} no-repeat bottom rgba(36, 41, 46, 0.90);
+  background: ${Theme.components.header.background} no-repeat bottom rgba(0, 0, 0, 0.30);
   background-size: cover;
   background-blend-mode: multiply;
   flex-direction: column;
@@ -47,9 +47,9 @@ export const ColorTitle = styled.span`
 `;
 
 export const SupportedBy = styled.h6`
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.05rem;
-  color: #fafafa;
+  color: #d8d8d8;
   font-weight: 500;
   opacity: .85;
   text-transform: uppercase;
@@ -58,7 +58,7 @@ export const SupportedBy = styled.h6`
 `;
 
 export const Description = styled.h2`
-  color: #fafafa;
+  color: #d8d8d8;
   margin: 0;
   font-size: 0.95rem;
   letter-spacing: 0.05rem;
@@ -81,8 +81,8 @@ export const Description = styled.h2`
 `;
 
 export const StyledTopics = styled(Typed)`
-  color: ${Theme.layout.linkColor};
-  border-bottom: 2px ${Theme.layout.linkColor} solid;
+  color: #ff0000;
+  border-bottom: 2px #d8d8d8 solid;
 `;
 
 export const StyledCoverCredit = styled.a`
@@ -100,5 +100,18 @@ export const StyledCoverCredit = styled.a`
   letter-spacing: 2px;
   &:hover {
     opacity: 1;
+  }
+`;
+
+export const DownArrow = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #d8d8d8;
+  span {
+    font-size: 1rem;
+    color: ${Theme.layout.primaryColor};
   }
 `;

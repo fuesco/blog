@@ -67,6 +67,8 @@ export const TagArchiveLink = styled(Link)`
   padding: 6px 12px;
   border-radius: 0.25rem;
   font-size: .8em;
+  font-weight: 700;
+  text-transform: uppercase;
   opacity: 0.85;
   &:hover {
     opacity: 1;

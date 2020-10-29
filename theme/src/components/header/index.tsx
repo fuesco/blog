@@ -1,7 +1,7 @@
 import React, {FunctionComponent} from "react";
 import StyledModelViewer from "../modelviewer";
 import StyledNavigation from "../navigation";
-import {Description, StyledHeader, StyledTopics, Title, ColorTitle, SupportedBy, TitleWrapper, StyledCoverCredit} from "./style";
+import {Description, StyledHeader, StyledTopics, Title, ColorTitle, SupportedBy, TitleWrapper, DownArrow, StyledCoverCredit} from "./style";
 import reactStringReplace from 'react-string-replace';
 import {MenuItem} from "../../utils/models";
 
@@ -35,12 +35,13 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
     <StyledHeader>
       <StyledNavigation title={title} menu={menu} showSearch={search}/>
       <TitleWrapper>
-        <Title>fues <ColorTitle>us</ColorTitle> {title}</Title>
+        <Title>fues&trade;&nbsp;<ColorTitle>{title}</ColorTitle></Title>
         <Description>
           {description}.
         </Description>
-        <SupportedBy>supported by the</SupportedBy>
-        <StyledModelViewer url={`https://fuesco.github.io/assets/model/${randomModel}.glb`}/>
+        <SupportedBy>supported by you.</SupportedBy>
+        <StyledModelViewer url={`https://cdn.fues.us/model/${randomModel}.glb`}/>
+        <DownArrow>scroll<span>&darr;</span></DownArrow>
       </TitleWrapper>
     </StyledHeader>
   );
