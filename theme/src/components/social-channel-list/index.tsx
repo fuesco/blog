@@ -19,6 +19,8 @@ interface SocialChannelListProps {
 // Returns a proper icon for a given channel
 const createSocialIcon = (channel: keyof SocialChannels) => {
   switch (channel) {
+    case "youtube":
+      return <FaYoutube style={{ fill: '#ff0000' }}/>;
     case "twitter":
       return <FaTwitter style={{ fill: '#1da1f2' }}/>;
     case "facebook":
@@ -31,8 +33,6 @@ const createSocialIcon = (channel: keyof SocialChannels) => {
       return <FaLinkedin/>;
     case "twitch":
       return <FaTwitch/>;
-    case "youtube":
-      return <FaYoutube style={{ fill: '#ff0000' }}/>;
   }
 
   return <FaQuestionCircle/>;

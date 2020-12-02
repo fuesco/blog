@@ -4,10 +4,12 @@ import Typed from 'react-typed';
 
 export const StyledHeader = styled.header`
   display: flex;
-  background-color: ${Theme.layout.primaryColor};
-  background: ${Theme.components.header.background} no-repeat bottom rgba(0, 0, 0, 0.30);
-  background-size: cover;
-  background-blend-mode: multiply;
+  background: ${Theme.components.header.background} no-repeat bottom;
+  background-size: contain;
+  background-attachment: scroll;
+  @media screen and (min-width: 800px) {
+    background-attachment: fixed;
+  }
   flex-direction: column;
   height: ${Theme.components.header.height};
   border-bottom: 2px #ededed solid;
@@ -40,25 +42,25 @@ export const Title = styled.h1`
   font-size: 3rem;
   text-transform: uppercase;
   font-style: italic;
+  color: ${Theme.layout.primaryColor};
 `;
 
 export const ColorTitle = styled.span`
-  color: ${Theme.layout.primaryColor};
+  color: #FF4500;
 `;
 
 export const SupportedBy = styled.h6`
   font-size: 14px;
   letter-spacing: 0.05rem;
-  color: #d8d8d8;
+  color: #111111;
   font-weight: 500;
-  opacity: .85;
+  opacity: .55;
   text-transform: uppercase;
   line-height: 1;
-  font-style: italic;
 `;
 
 export const Description = styled.h2`
-  color: #d8d8d8;
+  color: #111111;
   margin: 0;
   font-size: 0.95rem;
   letter-spacing: 0.05rem;
@@ -81,8 +83,8 @@ export const Description = styled.h2`
 `;
 
 export const StyledTopics = styled(Typed)`
-  color: #ff0000;
-  border-bottom: 2px #d8d8d8 solid;
+  color: #FF4500;
+  border-bottom: 2px #111111 solid;
 `;
 
 export const StyledCoverCredit = styled.a`
@@ -93,7 +95,7 @@ export const StyledCoverCredit = styled.a`
   background-color: #ffffff;
   color: ${Theme.layout.primaryColor};
   font-weight: 500;
-  opacity: .85;
+  opacity: .55;
   text-transform: uppercase;
   line-height: 1;
   padding-left: 2px;
@@ -112,6 +114,6 @@ export const DownArrow = styled.div`
   color: #d8d8d8;
   span {
     font-size: 1rem;
-    color: ${Theme.layout.primaryColor};
+    color: #FF4500;
   }
 `;

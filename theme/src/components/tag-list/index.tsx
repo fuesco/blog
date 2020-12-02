@@ -41,7 +41,7 @@ const TagList: FunctionComponent = () => {
               <Link to={`/tag/${slugify(tag.name, {lower: true})}`}>
                 {/* gatsby-image doesn't handle SVGs, hence we need to take care of it */}
                 {icon.extension !== 'svg'
-                  ? <Img fixed={tag.icon.childImageSharp.fixed}/>
+                  ? <Img fixed={tag.icon.publicURL}/>
                   : <TagIcon src={icon.publicURL} alt={tag.name}/>
                 }
                 <TagName>{tag.name}</TagName>

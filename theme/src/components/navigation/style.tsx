@@ -56,22 +56,21 @@ export const NavMenuItem = styled.li`
 `;
 
 export const NavLink = styled(Link)`
-  color: #d8d8d8;
-  opacity: .9;
+  color: #111111;
+  opacity: .8;
   text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 500;
-  font-style: italic;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
   padding: 16px;
   transition: all 0.2s ease-out;
   &:hover {
     opacity: 1;
-    color: ${Theme.layout.backgroundColor};
+    color: #FF4500;
   }
   &.active {
     opacity: 1;
     color: ${Theme.layout.backgroundColor};
-    font-weight: 700;
     font-style: normal;
   }
 `;
@@ -83,7 +82,7 @@ export const SearchContainer = styled.div`
 
 export const ToggleSearchButton = styled.button`
   cursor: pointer;
-  color: #fff;
+  color: #FF4500;
   opacity: .8;
   background: none;
   outline: none;

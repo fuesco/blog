@@ -23,10 +23,11 @@ const HomeLink = styled(Link)`
 `;
 
 const Logo: FunctionComponent<LogoProps> = ({title}) => {
-  let logoQuery = (
+  let logoQuery =
+  (
     useStaticQuery(graphql`
       query {
-        file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "fues-reg-dark"}) {
+        file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "fues-reg-light"}) {
           extension
           publicURL
         }

@@ -41,7 +41,7 @@ const ModelViewer: FunctionComponent<ModelViewerProps> = ({url=''}) => {
           interaction-prompt="none"
           style={{height: '15vw', width: '50vw', backgroundColor: 'unset', '--focus-visible': 'none'}}
           alt="A low-poly 3D model of the earth"
-          exposure={0.2}
+          exposure={0.4}
           auto-rotate
           rotation-per-second="2000%"
         />

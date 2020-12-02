@@ -53,7 +53,7 @@ module.exports = {
     author: {
       name: `Naval Monga`,
       description: `
-        <b><em>FUES&trade;&nbsp;BLOG</em></b>
+        <b><em>FUES&reg;&nbsp;US&nbsp;BLOG</em></b>
         <br/>
         <b>&copy;&nbsp;2020.</b>
         <br/>
@@ -62,11 +62,11 @@ module.exports = {
         <br/>
         <a href="https://github.com/fuesco/blog" rel="noopener" target="_blank">View the source!</a>`,
       social: {
+        youtube: `https://github.com/fuesco/`,
         facebook: ``,
         twitter: `https://github.com/fuesco/`,
         linkedin: ``,
         instagram: `https://instagram.com/fues.co/`,
-        youtube: `https://github.com/fuesco/`,
         github: `https://github.com/fuesco/`,
         twitch: ``,
       }

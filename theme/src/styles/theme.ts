@@ -1,16 +1,17 @@
 import {DefaultTheme} from "./default-theme";
 
 const getRandomUnsplashImgUrl = () => {
-  const unsplashURL = 'https://source.unsplash.com/'
-  const category = 'daily/?white'
-  return `${unsplashURL + category}`
+  // const unsplashURL = 'https://source.unsplash.com/'
+  // const category = 'daily/?white'
+  // return `${unsplashURL + category}`
+  return 'https://cdn.fues.us/fuesorg/force-fields-matt-lipman.svg'
 }
 
 const Theme: DefaultTheme = {
   layout: {
-    backgroundColor: `#fafafa`,
-    primaryColor: `#222222`,
-    linkColor: `#222222`,
+    backgroundColor: `#f8fafe`,
+    primaryColor: `#111111`,
+    linkColor: `#111111`,
   },
   breakpoints: {
     xs: `425px`,

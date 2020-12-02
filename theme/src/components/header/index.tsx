@@ -35,7 +35,7 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
     <StyledHeader>
       <StyledNavigation title={title} menu={menu} showSearch={search}/>
       <TitleWrapper>
-        <Title>fues&trade;&nbsp;<ColorTitle>{title}</ColorTitle></Title>
+        <Title>fues&reg;&nbsp;us&nbsp;<ColorTitle>{title}</ColorTitle></Title>
         <Description>
           {description}.
         </Description>

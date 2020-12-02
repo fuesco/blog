@@ -3,6 +3,7 @@ import {Nav, NavContainer, NavLink, NavMenu, NavMenuItem, NavWrapper, SearchCont
 import {MenuItem} from "../../utils/models";
 import {Search} from "../search";
 import Logo from "../logo";
+import LogoDark from "../logo_dark";
 
 interface NavigationProps {
   title: string;
@@ -14,7 +15,7 @@ interface NavigationProps {
 const Navigation: FunctionComponent<NavigationProps> = ({title, menu, dark = false, showSearch = true}) => (
   <NavContainer dark={dark}>
     <Nav>
-      <Logo title={title}/>
+      (dark ? <LogoDark title={title} /> : <Logo title={title} />)
       <NavWrapper>
         <NavMenu mobile={true}>
           {menu.map((item, index) => (

@@ -5,8 +5,8 @@ excerpt: Important and helpful list of bookmarks around app design, software dev
 ---
 
 ## Internal
-* <a href="/knowledge" alt="fues knowledge base">Fues&trade; Knowledge Base</a>
-* <a href="/credits" alt="fues blog credits">Blog Credits</a>
+* <a href="/knowledge" alt="fues® us knowledge base">Fues&reg; US Knowledge Base</a>
+* <a href="/credits" alt="fues® us blog credits">Site Credits</a>
 
 ## External
 

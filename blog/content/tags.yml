@@ -26,7 +26,7 @@
   color: #f0db4f
   icon: ./assets/images/javascript.svg
   featured: false
-- name: Theme
+- name: Brand
   color: #00ffee
-  icon: ./assets/images/fues-color.svg
-  featured: false
+  icon: ./assets/images/fues-reg-light.svg
+  featured: true
