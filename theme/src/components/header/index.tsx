@@ -35,13 +35,13 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
     <StyledHeader>
       <StyledNavigation title={title} menu={menu} showSearch={search}/>
       <TitleWrapper>
-        <Title>fues&reg;&nbsp;us&nbsp;<ColorTitle>{title}</ColorTitle></Title>
+        <Title>fues&nbsp;labs&nbsp;<ColorTitle>{title}</ColorTitle></Title>
         <Description>
           {description}.
         </Description>
-        <SupportedBy>supported by you.</SupportedBy>
+        <SupportedBy>supported by</SupportedBy>
         <StyledModelViewer url={`https://cdn.fues.us/model/${randomModel}.glb`}/>
-        <DownArrow>scroll<span>&darr;</span></DownArrow>
+        <DownArrow><span>&darr;</span></DownArrow>
       </TitleWrapper>
     </StyledHeader>
   );

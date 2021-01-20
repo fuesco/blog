@@ -6,7 +6,7 @@ import * as prismStyle from "prismjs/themes/prism-okaidia.css";
 const GlobalStyle = createGlobalStyle`
   ${styledNormalize}
   ${prismStyle}
-  @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,400i,500,500i,700,700i&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,500,500i,700,700i&display=swap');
   html {
     box-sizing: border-box;
     background-color: ${Theme.layout.backgroundColor};

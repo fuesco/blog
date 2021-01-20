@@ -10,8 +10,8 @@ const getRandomUnsplashImgUrl = () => {
 const Theme: DefaultTheme = {
   layout: {
     backgroundColor: `#f8fafe`,
-    primaryColor: `#111111`,
-    linkColor: `#111111`,
+    primaryColor: `#F12711`,
+    linkColor: `#F5AF19`,
   },
   breakpoints: {
     xs: `425px`,
@@ -21,7 +21,7 @@ const Theme: DefaultTheme = {
     xl: `1000px`,
   },
   fonts: {
-    base: `IBM Plex Sans Condensed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, ` +
+    base: `IBM Plex Mono, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, ` +
       `Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif`,
   },
   components: {

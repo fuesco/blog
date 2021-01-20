@@ -30,10 +30,9 @@ export const DesignBy = styled.p`
 
   a {
     font-weight: 700;
-    font-style: italic;
     text-transform: uppercase;
     text-decoration: none;
-    color: ${Theme.layout.linkColor};
+    color: ${Theme.layout.primaryColor};
     opacity: 0.9;
     transition: all 0.6s ease-in-out; 
     &:hover {

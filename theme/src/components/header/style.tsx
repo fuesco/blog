@@ -39,14 +39,15 @@ export const TitleWrapper = styled.div`
 export const Title = styled.h1`
   display: block;
   text-shadow: 0 5px 18px rgba(0, 0, 0, .07);
-  font-size: 3rem;
+  font-size: 72px;
+  color: #111111;
   text-transform: uppercase;
-  font-style: italic;
-  color: ${Theme.layout.primaryColor};
 `;
 
 export const ColorTitle = styled.span`
-  color: #FF4500;
+  background: linear-gradient(135deg, ${Theme.layout.primaryColor} 55%, ${Theme.layout.linkColor} 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 `;
 
 export const SupportedBy = styled.h6`
@@ -62,7 +63,7 @@ export const SupportedBy = styled.h6`
 export const Description = styled.h2`
   color: #111111;
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 15px;
   letter-spacing: 0.05rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -83,8 +84,7 @@ export const Description = styled.h2`
 `;
 
 export const StyledTopics = styled(Typed)`
-  color: #FF4500;
-  border-bottom: 2px #111111 solid;
+  color: ${Theme.layout.linkColor};
 `;
 
 export const StyledCoverCredit = styled.a`
@@ -109,11 +109,11 @@ export const DownArrow = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 14px;
+  margin-top: 12rem;
+  font-size: 22px;
   text-transform: uppercase;
   color: #d8d8d8;
   span {
-    font-size: 1rem;
-    color: #FF4500;
+    color: ${Theme.layout.primaryColor};
   }
 `;

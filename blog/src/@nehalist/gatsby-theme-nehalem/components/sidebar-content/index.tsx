@@ -56,7 +56,7 @@ const SidebarContent: FunctionComponent = () => {
         rel={`noopener`}
         aria-label={`contributing`}
       >
-        <PatreonIcon src="https://cdn.fues.us/icons/patreon_mark_black.svg" alt="patreon symbol" />&nbsp;Support us
+        <PatreonIcon src="https://cdn.fues.us/icons/patreon_mark_black.svg" alt="patreon symbol" />&nbsp;Join our Patrons
       </ContributeButton>
 
     </StickySidebarContent>

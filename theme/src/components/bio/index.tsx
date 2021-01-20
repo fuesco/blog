@@ -39,8 +39,8 @@ const Bio: FunctionComponent<BioProps> = ({textAlign = 'center', avatarStyle, sh
             name
             description
             social {
-              youtube
               github
+              youtube
               instagram
               facebook
               twitter

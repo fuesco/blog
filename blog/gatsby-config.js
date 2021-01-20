@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Blog`,
     siteUrl: `https://blog.fues.us/`,
-    description: `an open-source guide to %TOPICS%`,
+    description: `the open source guide to %TOPICS%`,
     topics: [
       'Design',
       'Python',
@@ -52,22 +52,22 @@ module.exports = {
     search: true,
     author: {
       name: `Naval Monga`,
+      // <b>&copy;&nbsp;2018-${new Date().getFullYear()}.</b>
       description: `
-        <b><em>FUES&reg;&nbsp;US&nbsp;BLOG</em></b>
-        <br/>
-        <b>&copy;&nbsp;2020.</b>
+        <b>FUES&nbsp;LABS&nbsp;BLOG</b>
         <br/>
         <br/>
-        Like what you see?
         <br/>
-        <a href="https://github.com/fuesco/blog" rel="noopener" target="_blank">View the source!</a>`,
+        Want to contribute?
+        <br/>
+        <a href="https://github.com/fuesco/blog" rel="noopener" target="_blank">Edit the source&nbsp;&rarr;</a>`,
       social: {
-        youtube: `https://github.com/fuesco/`,
+        youtube: `https://github.com/fueslabs`,
         facebook: ``,
-        twitter: `https://github.com/fuesco/`,
+        twitter: `https://twitter.com/fueslabs`,
         linkedin: ``,
-        instagram: `https://instagram.com/fues.co/`,
-        github: `https://github.com/fuesco/`,
+        instagram: `https://instagram.com/fueslabs`,
+        github: `https://github.com/fueslabs`,
         twitch: ``,
       }
     }

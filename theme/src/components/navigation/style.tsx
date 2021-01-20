@@ -57,10 +57,9 @@ export const NavMenuItem = styled.li`
 
 export const NavLink = styled(Link)`
   color: #111111;
-  opacity: .8;
+  opacity: 0.5;
   text-transform: uppercase;
   font-size: 15px;
-  font-weight: 700;
   letter-spacing: 1px;
   padding: 16px;
   transition: all 0.2s ease-out;
