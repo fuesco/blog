@@ -1,23 +1,14 @@
 ---
 title: About
 path: "/about"
-excerpt: Fues Blog discusses topics on software engineering including programming, python, go, amazon web services, design, react, flutter, etc.
+excerpt: Lorem ipsum add a desc text here.
 ---
 
-## *FUES™ BLOG*
-> &copy; 2020, All rights reserved.
+## FUES LABS BLOG
+> &copy; 2021, All rights reserved.
 
-## Topics Covered:
+## Our Story
 
-### NodeJS
-* React
-* GatsbyJS
-* Material-UI
-* model-viewer
+## Our Team
 
-### Deployment
-* Terraform
-* Amazon Web Services (AWS)
-* Kubernetes
-* Netlify
-
+## Credits

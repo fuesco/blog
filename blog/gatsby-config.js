@@ -54,7 +54,7 @@ module.exports = {
       name: `Naval Monga`,
       // <b>&copy;&nbsp;2018-${new Date().getFullYear()}.</b>
       description: `
-        <b>FUES&nbsp;LABS&nbsp;BLOG</b>
+        <h2>FUES<span>LABS</span>&reg;&nbsp;BLOG</h2>
         <br/>
         <br/>
         <br/>

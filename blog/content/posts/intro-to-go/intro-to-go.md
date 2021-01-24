@@ -3,7 +3,7 @@ title: "Introduction to Go"
 path: "/intro-to-go"
 tags: ["Go"]
 featuredImage: "./cover.jpg"
-excerpt: A quick introduction to the Go language from the Golang Tutorial on the freeCodeCamp channel.
+excerpt: A quick overview of the Go language from the free tutorial on the freeCodeCamp's YouTube channel.
 created: 2020-05-27
 updated: 2020-05-27
 ---

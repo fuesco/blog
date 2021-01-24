@@ -1,23 +1,23 @@
-- name: Programming
+- name: Video
   color: "#007acc"
-  icon: ./assets/images/typescript.svg
+  icon: ./assets/images/youtube.svg
   featured: true
-- name: Python
+- name: Programming
   color: #f0db4f
   icon: ./assets/images/python.svg
   featured: true
-- name: Go
+- name: API Development
   color: "#007acc"
   icon: ./assets/images/gopher.svg
   featured: true
-- name: Flutter
-  color: #f0db4f
-  icon: ./assets/images/flutter.svg
-  featured: true
-- name: Amazon Web Services
+- name: Cloud Computing
   color: "#E57A2C"
   icon: ./assets/images/aws.svg
   featured: true
+- name: Brand
+  color: #00ffee
+  icon: ./assets/images/f-sharp-light.svg
+  featured: false
 - name: Design
   color: #f0db4f
   icon: ./assets/images/design.svg
@@ -26,7 +26,3 @@
   color: #f0db4f
   icon: ./assets/images/javascript.svg
   featured: false
-- name: Brand
-  color: #00ffee
-  icon: ./assets/images/fues-reg-light.svg
-  featured: true

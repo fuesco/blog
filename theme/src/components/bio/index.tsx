@@ -4,6 +4,7 @@ import {graphql, useStaticQuery} from "gatsby";
 import {SiteMetadata} from "../../utils/models";
 import SocialChannelList from "../social-channel-list";
 import Avatar from "../avatar";
+import Theme from "../../styles/theme";
 
 interface BioProps {
   textAlign: 'left' | 'center' | 'right' | 'justify';
@@ -19,6 +20,15 @@ const StyledBio = styled.section<Pick<BioProps, 'textAlign'>>`
 
 const AuthorDescription = styled.p`
   margin: 10px 0 13px;
+
+  h2 {
+    padding-top: 1rem;
+    span {
+      background: linear-gradient(135deg, ${Theme.layout.primaryColor} 55%, ${Theme.layout.linkColor} 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
 
   a {
     color: #000;

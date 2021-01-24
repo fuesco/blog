@@ -3,7 +3,7 @@ title: "AWS Fundamentals"
 path: "/aws-fundamentals"
 tags: ["Amazon Web Services"]
 featuredImage: "./cover.jpg"
-excerpt: Learn about basics of cloud computing and gain an overview of how you can get started using Amazon Web Services.
+excerpt: Basics of cloud computing and how you can quickly get started with Amazon Web Services.
 created: 2020-03-30
 updated: 2020-03-30
 ---

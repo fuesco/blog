@@ -10,7 +10,7 @@ interface AvatarProps {
 
 const StyledAvatar = styled.img<AvatarProps>`
   border-radius: 0%;
-  height: 64px;
+  height: 96px;
 `;
 
 /**

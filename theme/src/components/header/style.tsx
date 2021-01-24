@@ -40,6 +40,9 @@ export const Title = styled.h1`
   display: block;
   text-shadow: 0 5px 18px rgba(0, 0, 0, .07);
   font-size: 72px;
+  @media (max-width: ${Theme.breakpoints.sm}) {
+    font-size: 36px;
+  }
   color: #111111;
   text-transform: uppercase;
 `;
@@ -54,7 +57,7 @@ export const SupportedBy = styled.h6`
   font-size: 14px;
   letter-spacing: 0.05rem;
   color: #111111;
-  font-weight: 500;
+  font-weight: 400;
   opacity: .55;
   text-transform: uppercase;
   line-height: 1;
@@ -65,7 +68,7 @@ export const Description = styled.h2`
   margin: 0;
   font-size: 15px;
   letter-spacing: 0.05rem;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
   * {
     opacity: .85;
@@ -84,7 +87,9 @@ export const Description = styled.h2`
 `;
 
 export const StyledTopics = styled(Typed)`
-  color: ${Theme.layout.linkColor};
+  color: ${Theme.layout.primaryColor};
+  font-size: 17px;
+  font-weight: 700;
 `;
 
 export const StyledCoverCredit = styled.a`

@@ -20,7 +20,7 @@ const Navigation: FunctionComponent<NavigationProps> = ({title, menu, dark = fal
         <NavMenu mobile={true}>
           {menu.map((item, index) => (
             <NavMenuItem key={index}>
-              <NavLink to={item.path} key={index} activeClassName="active">{item.name}</NavLink>
+              <NavLink to={item.path} key={index} activeClassName="active" dark={dark}>{item.name}</NavLink>
             </NavMenuItem>
           ))}
         </NavMenu>

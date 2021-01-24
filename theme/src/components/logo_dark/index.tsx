@@ -11,14 +11,14 @@ interface LogoProps {
 
 const LogoImage = styled.img`
   margin-right: 12px;
-  height: 42px;
+  height: 55px;
   @media (max-width: ${Theme.breakpoints.sm}) {
   }
 `;
 
 const HomeLink = styled(Link)`
   align-self: center;
-  height: 42px;
+  height: 55px;
   padding-top: 0rem;
 `;
 

@@ -55,8 +55,11 @@ export const NavMenuItem = styled.li`
   text-decoration: none;
 `;
 
-export const NavLink = styled(Link)`
+export const NavLink = styled(Link)<{ dark?: boolean}>`
   color: #111111;
+  ${props => props.dark && `
+    color: #f1f1f1;
+  `};
   opacity: 0.5;
   text-transform: uppercase;
   font-size: 15px;
