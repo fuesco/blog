@@ -4,9 +4,15 @@ path: "/bookmarks"
 excerpt: Important and helpful list of bookmarks around app design, software development, and open source technologies made by Fues.
 ---
 
+
+## Guides
+
+- <a href="knowledge/aws-csa" alt="aws csa guide">AWS Certified Solutions Architect (CSA)</a>
+- <a href="/spring/intro-to-spring" alt="fues labs blog knowledge base">Intro to Spring Framework</a>
+
 ## Internal Bookmarks
-* <a href="/knowledge" alt="fues labs blog knowledge base">FLB Knowledge Base</a>
-* <a href="/credits" alt="fues labs blog site credits">Site Credits</a>
+- <a href="/knowledge" alt="fues labs blog knowledge base">FLB Knowledge Base</a>
+- <a href="/credits" alt="fues labs blog site credits">Site Credits</a>
 
 ## External Bookmarks
 

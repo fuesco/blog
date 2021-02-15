@@ -1,5 +1,5 @@
 <h2 align="center">
-  <b>FUESLABS® BLOG</b>
+  <b>GATSBY BLOG</b>
 </h2>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/86081ffb-d4fe-4d60-9069-31aab492e247/deploy-status)](https://app.netlify.com/sites/blog-fues/deploys)

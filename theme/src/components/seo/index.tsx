@@ -60,7 +60,7 @@ const SEO: FunctionComponent<SEOProps> = ({
   return (
     <Helmet
       htmlAttributes={{lang}}
-      title={siteTitle + ' - FUESLABS®'}
+      title={siteTitle + ' - FUES LABS™'}
       meta={[
         {
           name: `description`,
@@ -68,7 +68,7 @@ const SEO: FunctionComponent<SEOProps> = ({
         },
         {
           name: `og:title`,
-          content: siteTitle + ' - Fues™ Open Source',
+          content: siteTitle + ' - FUES LABS™',
         },
         {
           name: `og:type`,

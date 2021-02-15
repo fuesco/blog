@@ -6,8 +6,8 @@ export const Container = styled.div`
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-
-  @media (max-width: ${Theme.breakpoints.xl}) {
+  padding: 0 20px;
+  @media (max-width: ${Theme.breakpoints.md}) {
     padding: 0 20px;
   }
 `;

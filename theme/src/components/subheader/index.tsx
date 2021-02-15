@@ -11,7 +11,7 @@ interface SubheaderProps {
 
 const StyledSubheader = styled.div<Pick<SubheaderProps, 'backgroundColor' | 'textColor'>>`
   background-color: ${props => props.backgroundColor ? props.backgroundColor : '#000'};
-  color: ${props => props.textColor ? props.textColor : '#fff'};
+  color: ${props => props.textColor ? props.textColor : '#f8fafe'};
   display: flex;
   align-items: center;
   height: 144px;
@@ -19,9 +19,8 @@ const StyledSubheader = styled.div<Pick<SubheaderProps, 'backgroundColor' | 'tex
 `;
 
 const SubheaderTitle = styled.h1`
-  font-size: 1.55rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  color: #fff;
   margin: 0;
   line-height: 1em;
 `;

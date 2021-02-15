@@ -37,7 +37,7 @@ const TagTemplate: FunctionComponent<TagTemplateProps> = ({data, location}) => {
         location={location}
         type={`Series`}
       />
-      <Subheader title={tag.name} subtitle={`${posts.length} posts`} backgroundColor={tag.color}/>
+      <Subheader title={tag.name} subtitle={`${posts.length} posts`} backgroundColor={tag.color} />
       <PostGrid posts={posts} />
     </Layout>
   );

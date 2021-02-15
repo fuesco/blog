@@ -1,14 +1,14 @@
 ---
 title: "AWS Fundamentals"
 path: "/aws-fundamentals"
-tags: ["Amazon Web Services"]
+tags: ["Cloud Computing"]
 featuredImage: "./cover.jpg"
 excerpt: Basics of cloud computing and how you can quickly get started with Amazon Web Services.
 created: 2020-03-30
 updated: 2020-03-30
 ---
 
-> 👋 Hey all! This post is based on the Amazon Educate fundamentals course that introduces beginners to the basics of cloud computing and the different services available to developers on AWS Cloud.
+> 👋 Hey all! This post is based on the [Amazon Educate](https://aws.amazon.com/education/awseducate/pathways-and-badges/) fundamentals course that introduces beginners to the basics of cloud computing and the different services available to developers on AWS Cloud.
 
 ## Cloud Computing
 

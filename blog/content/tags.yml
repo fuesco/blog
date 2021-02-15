@@ -1,19 +1,24 @@
+- name: React
+  color: '#f7df1e'
+  textColor: '#111111'
+  icon: ./assets/images/javascript.svg
+  featured: true
+- name: AI/ML
+  color: '#8e43e7'
+  icon: ./assets/images/python.svg
+  featured: true
+- name: Cloud Computing
+  color: '#e57a2c'
+  icon: ./assets/images/aws.svg
+  featured: true
+- name: Software
+  color: #007acc
+  icon: ./assets/images/gopher.svg
+  featured: true
 - name: Video
   color: "#007acc"
   icon: ./assets/images/youtube.svg
-  featured: true
-- name: Programming
-  color: #f0db4f
-  icon: ./assets/images/python.svg
-  featured: true
-- name: API Development
-  color: "#007acc"
-  icon: ./assets/images/gopher.svg
-  featured: true
-- name: Cloud Computing
-  color: "#E57A2C"
-  icon: ./assets/images/aws.svg
-  featured: true
+  featured: false
 - name: Brand
   color: #00ffee
   icon: ./assets/images/f-sharp-light.svg
@@ -21,8 +26,4 @@
 - name: Design
   color: #f0db4f
   icon: ./assets/images/design.svg
-  featured: false
-- name: React
-  color: #f0db4f
-  icon: ./assets/images/javascript.svg
   featured: false

@@ -6,16 +6,15 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Blog`,
+    title: `BLOG`,
     siteUrl: `https://blog.fues.us/`,
-    description: `the open source guide to %TOPICS%`,
+    description: `the open guide to %TOPICS%`,
     topics: [
-      'Design',
-      'Python',
-      'AWS',
+      'AI/ML',
       'React',
+      'Cloud Computing',
       'JAMStack',
-      'Go',
+      'Video Editing'
     ],
     menu: [
       {
@@ -54,7 +53,7 @@ module.exports = {
       name: `Naval Monga`,
       // <b>&copy;&nbsp;2018-${new Date().getFullYear()}.</b>
       description: `
-        <h2>FUES<span>LABS</span>&reg;&nbsp;BLOG</h2>
+        <h2>FUES&nbsp;<span>LABS</span>&trade;&nbsp;BLOG</h2>
         <br/>
         <br/>
         <br/>

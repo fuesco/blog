@@ -39,7 +39,7 @@ export const TitleWrapper = styled.div`
 export const Title = styled.h1`
   display: block;
   text-shadow: 0 5px 18px rgba(0, 0, 0, .07);
-  font-size: 72px;
+  font-size: 55px;
   @media (max-width: ${Theme.breakpoints.sm}) {
     font-size: 36px;
   }
@@ -54,8 +54,7 @@ export const ColorTitle = styled.span`
 `;
 
 export const SupportedBy = styled.h6`
-  font-size: 14px;
-  letter-spacing: 0.05rem;
+  font-size: 13px;
   color: #111111;
   font-weight: 400;
   opacity: .55;
@@ -89,7 +88,6 @@ export const Description = styled.h2`
 export const StyledTopics = styled(Typed)`
   color: ${Theme.layout.primaryColor};
   font-size: 17px;
-  font-weight: 700;
 `;
 
 export const StyledCoverCredit = styled.a`

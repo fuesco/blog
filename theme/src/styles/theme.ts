@@ -4,7 +4,7 @@ const getRandomUnsplashImgUrl = () => {
   // const unsplashURL = 'https://source.unsplash.com/'
   // const category = 'daily/?white'
   // return `${unsplashURL + category}`
-  return 'https://cdn.fues.us/fuesorg/force-fields-matt-lipman.svg'
+  return 'https://cdn.fues.us/fueslabs/force-fields-matt-lipman.svg'
 }
 
 const Theme: DefaultTheme = {

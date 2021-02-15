@@ -42,7 +42,7 @@ export const FeaturedImage = styled(Img)<Pick<CardProps, 'halfImage'>>`
     width: 100%;
     height: 100%;
     background-image: linear-gradient(135deg, ${Theme.layout.primaryColor} 55%, ${Theme.layout.primaryColor} 100%);
-    opacity: 0.9;
+    opacity: 0.5;
     transition: opacity 0.2s ease-out;
   }
   &:hover{

@@ -1,9 +1,9 @@
 ---
-title: "Welcome to FUESLABS®"
+title: "Welcome to FUES LABS™"
 path: "/welcome"
 tags: ["Theme"]
 featuredImage: "./cover-yt.png"
-excerpt: FUESLABS® Blog covers topics on software engineering, app design, and video editing.
+excerpt: We cover topics on software engineering, app design, and video editing.
 created: 2020-05-26
 updated: 2021-01-24
 ---

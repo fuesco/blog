@@ -22,14 +22,8 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6, span {
     outline: none;
-    ::selection {
-      background: ${Theme.layout.linkColor}; /* WebKit/Blink Browsers */
-    }
-    ::-moz-selection {
-      background: ${Theme.layout.linkColor}; /* Gecko Browsers */
-    }
   }
 
   a {
