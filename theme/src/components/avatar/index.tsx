@@ -10,7 +10,7 @@ interface AvatarProps {
 
 const StyledAvatar = styled.img<AvatarProps>`
   border-radius: 0%;
-  height: 55px;
+  height: 44px;
 `;
 
 /**
@@ -19,7 +19,7 @@ const StyledAvatar = styled.img<AvatarProps>`
 const Avatar: FunctionComponent<AvatarProps> = ({alt, style}) => {
   const logo = useStaticQuery(graphql`
     query {
-      file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "f-sharp-light"}) {
+      file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "fuespro"}) {
         extension
         publicURL
       }

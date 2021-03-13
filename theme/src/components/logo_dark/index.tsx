@@ -11,14 +11,14 @@ interface LogoProps {
 
 const LogoImage = styled.img`
   margin-right: 12px;
-  height: 55px;
+  height: 32px;
   @media (max-width: ${Theme.breakpoints.sm}) {
   }
 `;
 
 const HomeLink = styled(Link)`
   align-self: center;
-  height: 55px;
+  height: 32px;
   padding-top: 0rem;
 `;
 
@@ -27,7 +27,7 @@ const Logo: FunctionComponent<LogoProps> = ({title}) => {
   (
     useStaticQuery(graphql`
       query {
-        file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "f-sharp-dark"}) {
+        file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "fuespro-dbg"}) {
           extension
           publicURL
         }

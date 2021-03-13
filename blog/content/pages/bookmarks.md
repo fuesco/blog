@@ -7,7 +7,10 @@ excerpt: Important and helpful list of bookmarks around app design, software dev
 
 ## Guides
 
-- <a href="knowledge/aws-csa" alt="aws csa guide">AWS Certified Solutions Architect (CSA)</a>
+### AWS
+- <a href="knowledge/aws-csa" alt="aws csa guide">Certified Solutions Architect (CSA)</a>
+
+### Java
 - <a href="/spring/intro-to-spring" alt="fues labs blog knowledge base">Intro to Spring Framework</a>
 
 ## Internal Bookmarks

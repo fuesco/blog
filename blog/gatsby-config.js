@@ -6,24 +6,24 @@
 
 module.exports = {
   siteMetadata: {
-    title: `BLOG`,
+    title: `Blog`,
     siteUrl: `https://blog.fues.us/`,
     description: `the open guide to %TOPICS%`,
     topics: [
-      'AI/ML',
-      'React',
+      'Machine Learning',
       'Cloud Computing',
-      'JAMStack',
-      'Video Editing'
+      'Python',
+      'React',
+      'JAMStack'
     ],
     menu: [
       {
-        name: 'About',
-        path: '/about'
+        name: 'Start Here',
+        path: '/start-here'
       },
       {
-        name: 'Bookmarks',
-        path: '/bookmarks'
+        name: 'About',
+        path: '/about'
       },
       {
         name: 'Tags',
@@ -34,10 +34,6 @@ module.exports = {
       {
         name: 'About',
         path: '/about'
-      },
-      {
-        name: 'Bookmarks',
-        path: '/bookmarks'
       },
       {
         name: 'Tags',
@@ -53,7 +49,8 @@ module.exports = {
       name: `Naval Monga`,
       // <b>&copy;&nbsp;2018-${new Date().getFullYear()}.</b>
       description: `
-        <h2>FUES&nbsp;<span>LABS</span>&trade;&nbsp;BLOG</h2>
+        <h2>FUES<span>PRO</span>&trade;&nbsp;BLOG</h2>
+        <p>&copy;&nbsp;${new Date().getFullYear()}</p>
         <br/>
         <br/>
         <br/>

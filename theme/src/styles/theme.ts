@@ -1,9 +1,11 @@
 import {DefaultTheme} from "./default-theme";
 
 const getRandomUnsplashImgUrl = () => {
-  // const unsplashURL = 'https://source.unsplash.com/'
-  // const category = 'daily/?white'
-  // return `${unsplashURL + category}`
+  /** random unsplash image
+   * const unsplashURL = 'https://source.unsplash.com/'
+   * const category = 'random/monthly?stars'
+   * return `${unsplashURL + category}`
+   */
   return 'https://cdn.fues.us/fueslabs/force-fields-matt-lipman.svg'
 }
 

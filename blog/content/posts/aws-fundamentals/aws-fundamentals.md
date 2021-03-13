@@ -8,7 +8,9 @@ created: 2020-03-30
 updated: 2020-03-30
 ---
 
-> 👋 Hey all! This post is based on the [Amazon Educate](https://aws.amazon.com/education/awseducate/pathways-and-badges/) fundamentals course that introduces beginners to the basics of cloud computing and the different services available to developers on AWS Cloud.
+**Cover by *[@alexmotoc](https://unsplash.com/@alexmotoc)* on Unsplash**
+
+> 👋 Welcome y'all! This post is based on the [Amazon Educate](https://aws.amazon.com/education/awseducate/pathways-and-badges/) fundamentals course that introduces beginners to the basics of cloud computing and the different services available to developers on AWS Cloud.
 
 ## Cloud Computing
 
@@ -102,5 +104,3 @@ More information on AWS Compliance is available in the [Risk and Compliance whit
 * https://aws.amazon.com/tco-calculator/
 
 ---
-
-*Cover by [@alexmotoc](https://unsplash.com/@alexmotoc) on Unsplash*

@@ -1,5 +1,5 @@
 ---
-title: "Welcome to FUES LABS™"
+title: "Welcome to Fues Pro™"
 path: "/welcome"
 tags: ["Theme"]
 featuredImage: "./cover-yt.png"
@@ -8,9 +8,9 @@ created: 2020-05-26
 updated: 2021-01-24
 ---
 
-## Welcome to the FUESLABS® community!
+## Welcome to Fues Pro™!
 
-Fues was created in order to empower and enable creators by sharing experiences and experiments in web technologies. Founded in 2018, Fues is our way to contribute to and help expand the open source community. We are passionate about learning, innovating, and creating new solutions to hard problems.
+Founded in 2018, Fues Pro™ is our way to contribute to and help expand the open source community. We are passionate about learning, innovating, and creating new solutions to hard problems.
 
 ## Our Story
 

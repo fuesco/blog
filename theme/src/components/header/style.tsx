@@ -1,11 +1,13 @@
 import styled from "styled-components";
 import Theme from "../../styles/theme";
 import Typed from 'react-typed';
+import { Link } from "gatsby";
 
 export const StyledHeader = styled.header`
   display: flex;
   background: ${Theme.components.header.background} no-repeat bottom;
-  background-size: contain;
+  box-shadow: inset 0 0 0 1000px rgba(255,255,255,.75);
+  background-size: cover;
   background-attachment: scroll;
   @media screen and (min-width: 800px) {
     background-attachment: fixed;
@@ -39,7 +41,7 @@ export const TitleWrapper = styled.div`
 export const Title = styled.h1`
   display: block;
   text-shadow: 0 5px 18px rgba(0, 0, 0, .07);
-  font-size: 55px;
+  font-size: 4rem;
   @media (max-width: ${Theme.breakpoints.sm}) {
     font-size: 36px;
   }
@@ -53,13 +55,13 @@ export const ColorTitle = styled.span`
   -webkit-text-fill-color: transparent;
 `;
 
-export const SupportedBy = styled.h6`
+export const SupportedBy = styled(Link)`
   font-size: 13px;
   color: #111111;
   font-weight: 400;
   opacity: .55;
   text-transform: uppercase;
-  line-height: 1;
+  line-height: 3rem;
 `;
 
 export const Description = styled.h2`
@@ -76,12 +78,6 @@ export const Description = styled.h2`
     * {
       opacity: 1;
     }
-  }
-  ::selection {
-    background: ${Theme.layout.linkColor}; /* WebKit/Blink Browsers */
-  }
-  ::-moz-selection {
-    background: ${Theme.layout.linkColor}; /* Gecko Browsers */
   }
 `;
 
@@ -119,4 +115,7 @@ export const DownArrow = styled.div`
   span {
     color: ${Theme.layout.primaryColor};
   }
+  animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
 `;

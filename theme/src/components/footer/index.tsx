@@ -26,10 +26,10 @@ const Footer: FunctionComponent<FooterProps> = ({menu, owner}) => (
       </StyledNav>
       <div>
         <Copyright>
-          <strong>FUES&nbsp;LABS&trade; {owner.toUpperCase()}</strong>&nbsp;&copy; {new Date().getFullYear()}
+          <strong><a href={`https://pro.fues.us`} target="_blank">FUESPRO&trade;</a> {owner.toUpperCase()}</strong>&nbsp;&copy; {new Date().getFullYear()}
         </Copyright>
         <DesignBy>
-          <a href={`https://labs.fues.us/`} target="_blank"><span>fues&nbsp;</span>labs&trade;</a>
+          <a href={`https://navalm.com`} target="_blank">navalm.com</a>
         </DesignBy>
       </div>
     </FooterContainer>
