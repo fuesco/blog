@@ -1,5 +1,5 @@
 import React, {FunctionComponent} from "react";
-import StyledModelViewer from "../modelviewer";
+import ModelViewer from "../modelviewer";
 import StyledNavigation from "../navigation";
 import {Description, StyledHeader, StyledTopics, Title, ColorTitle, SupportedBy, TitleWrapper, DownArrow, StyledCoverCredit} from "./style";
 import reactStringReplace from 'react-string-replace';
@@ -40,7 +40,7 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
           {description}.
         </Description>
         <SupportedBy to={'/about#supporters'}>supported by</SupportedBy>
-        <StyledModelViewer url={`https://cdn.fues.us/model/${randomModel}.glb`}/>
+        <ModelViewer url={`https://cdn.fues.us/model/${randomModel}.glb`}/>
         <DownArrow><span>👇</span></DownArrow>
       </TitleWrapper>
     </StyledHeader>

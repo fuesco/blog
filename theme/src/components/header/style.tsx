@@ -108,7 +108,7 @@ export const DownArrow = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 12rem;
+  margin-top: 2rem;
   font-size: 22px;
   text-transform: uppercase;
   color: #d8d8d8;
