@@ -115,7 +115,4 @@ export const DownArrow = styled.div`
   span {
     color: ${Theme.layout.primaryColor};
   }
-  animation: bounce 2s infinite;
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
 `;
