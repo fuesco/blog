@@ -1,5 +1,6 @@
 import React, {FunctionComponent} from "react";
 import {MenuItem} from "../../utils/models";
+import Logo from "../logo";
 import {Copyright, DesignBy, FooterContainer, FooterMenuItem, FooterMenuLink, StyledFooter, StyledNav} from "./style";
 
 interface FooterProps {
@@ -26,10 +27,11 @@ const Footer: FunctionComponent<FooterProps> = ({menu, owner}) => (
       </StyledNav>
       <div>
         <Copyright>
-          <strong><a href={`https://pro.fues.us`} target="_blank">FUESPRO&trade;</a> {owner.toUpperCase()}</strong>&nbsp;&copy; {new Date().getFullYear()}
+          <strong><a href={`https://pro.fues.us`} target="_blank">FUESVC&trade;</a> {owner.toUpperCase()}</strong>
+          <br/><br/>&copy; {new Date().getFullYear()}
         </Copyright>
         <DesignBy>
-          <a href={`https://navalm.com`} target="_blank">navalm.com</a>
+          <a href={`https://fues.us`} target="_blank"><Logo title={'FuesVC'}/></a>
         </DesignBy>
       </div>
     </FooterContainer>

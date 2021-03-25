@@ -55,7 +55,7 @@ export const StyledNav = styled.nav`
   li {
     display: inline-block;
     margin-right: 25px;
-
+    text-transform: uppercase;
     &:last-child {
       margin-right: 0;
     }

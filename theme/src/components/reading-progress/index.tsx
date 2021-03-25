@@ -10,7 +10,7 @@ interface ReadingProgressProps {
 const ReadingProgressBar = styled.div<{ color?: string; }>`
   position: sticky;
   height: 5px;
-  top: 70px;
+  top: 58px;
   background-color: ${props => props.color ? props.color : Theme.layout.primaryColor};
   z-index: 500;
 `;

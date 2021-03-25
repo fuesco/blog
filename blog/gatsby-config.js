@@ -18,7 +18,7 @@ module.exports = {
     ],
     menu: [
       {
-        name: 'Start Here',
+        name: 'Start',
         path: '/start-here'
       },
       {
@@ -49,21 +49,18 @@ module.exports = {
       name: `Naval Monga`,
       // <b>&copy;&nbsp;2018-${new Date().getFullYear()}.</b>
       description: `
-        <h2>FUES<span>PRO</span>&trade;&nbsp;BLOG</h2>
+        <h2>FUES<span>VC</span>&trade;&nbsp;BLOG</h2>
         <p>&copy;&nbsp;${new Date().getFullYear()}</p>
         <br/>
         <br/>
-        <br/>
-        Want to contribute?
-        <br/>
-        <a href="https://github.com/fuesco/blog" rel="noopener" target="_blank">Edit the source&nbsp;&rarr;</a>`,
+        <a href="https://github.com/fuesvc/blog" rel="noopener" target="_blank">Edit the source&nbsp;&rarr;</a>`,
       social: {
-        youtube: `https://github.com/fueslabs`,
+        youtube: `https://www.youtube.com/channel/UCXwldfPBw8ipE_9yT-psufQ`,
         facebook: ``,
-        twitter: `https://twitter.com/fueslabs`,
+        twitter: `https://twitter.com/fuesvc`,
         linkedin: ``,
-        instagram: `https://instagram.com/fueslabs`,
-        github: `https://github.com/fueslabs`,
+        instagram: `https://instagram.com/fuesvc`,
+        github: `https://github.com/fuesvc`,
         twitch: ``,
       }
     }

@@ -22,7 +22,7 @@ export const NavWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 70px;
+  height: 58px;
   white-space: nowrap;
 
   @media (max-width: ${Theme.breakpoints.sm}) {
@@ -64,8 +64,7 @@ export const NavLink = styled(Link)<{ dark?: boolean}>`
   text-transform: uppercase;
   font-size: 15px;
   letter-spacing: 1px;
-  padding: 16px;
-  transition: all 0.2s ease-out;
+  padding: 0px 16px;
   &:hover {
     opacity: 1;
     color: #FF4500;

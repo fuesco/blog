@@ -4,11 +4,11 @@ path: "/start-here"
 excerpt: Lorem ipsum add a desc text here.
 ---
 
-📡 Welcome! Use this as your "Quick Start Guide" to Fues Pro™ Blog.
+📡 Welcome! Use this as your "Quick Start Guide" to FuesVC™ Blog.
 
+- <a href="https://vc.fues.us" alt="fuesvc home" target="_blank">FuesVC™</a>
+- <a href="https://patreon.com/fues" alt="fuesvc patreon" target="_blank">Support FuesVC™</a>
 - [Bookmarks](/bookmarks)
-- [Fues Pro™](https://pro.fues.us)
-- [Support Fues Pro™](https://patreon.com/fues)
 
 ---
 ## Table of Contents

@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Fues Pro™"
+title: "Welcome to FuesVC™ Blog"
 path: "/welcome"
 tags: ["Theme"]
 featuredImage: "./cover-yt.png"
@@ -8,12 +8,12 @@ created: 2020-05-26
 updated: 2021-01-24
 ---
 
-## Welcome to Fues Pro™!
+## FuesVC™ Blog
 
 Founded in 2018, Fues Pro™ is our way to contribute to and help expand the open source community. We are passionate about learning, innovating, and creating new solutions to hard problems.
 
-## Our Story
+## Story
 
-## Our Team
+## Team
 
 ## Credits

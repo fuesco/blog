@@ -6,7 +6,7 @@ import { Link } from "gatsby";
 export const StyledHeader = styled.header`
   display: flex;
   background: ${Theme.components.header.background} no-repeat bottom;
-  box-shadow: inset 0 0 0 1000px rgba(255,255,255,.75);
+  box-shadow: inset 0 0 0 1000px rgba(255,255,255,.15);
   background-size: cover;
   background-attachment: scroll;
   @media screen and (min-width: 800px) {
